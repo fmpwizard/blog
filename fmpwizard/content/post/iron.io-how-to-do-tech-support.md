@@ -22,7 +22,7 @@ The reason was easy to spot, every time we got a resource offer from the Mesos m
 
 ![160k API requests](/images/iron-160k-api-requests.png)
 
-######(Initially there was a lower number of daily requests because I was doing testing and didn't leave the cluster running all day)
+###### (Initially there was a lower number of daily requests because I was doing testing and didn't leave the cluster running all day)
 
 ### Tech support.
 

@@ -60,6 +60,8 @@ But other than that, your application just deals with `LAFutures` and Lift does 
 
 You can find a fully runnable application that includes the code listed here on [github](https://github.com/fmpwizard/lift_starter_2.4/tree/la-futures-2) (on the la-futures-2 branch).
 
-Thanks for reading
-
-  Diego
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego

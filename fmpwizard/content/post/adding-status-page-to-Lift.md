@@ -35,7 +35,8 @@ This entry creates a /ping endpoint, `>> Hidden` makes is so that it will not ap
 
 Last week we added something similar at work, so our monitoring application would not create sessions on our servers.
 
-
-Thanks
-
-  Diego
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego

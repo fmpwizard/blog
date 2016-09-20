@@ -172,6 +172,8 @@ I have plans to improve on this example, but I think that this is a good proof o
 
 Sure, you can find the source code is on [github](https://github.com/fmpwizard/lift-comet-history)
 
-Enjoy
-
-  Diego
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego

@@ -102,3 +102,10 @@ See the Lift application in action:
   [7]: /images/41728617-architecture.png
   [8]: https://github.com/fmpwizard/lift_starter_2.4/tree/arduino
   [9]: https://github.com/fmpwizard/lift_starter_2.4/blob/arduino/arduino_files/servomotorcontrol/servomotorcontrol.ino
+
+
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego

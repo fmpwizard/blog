@@ -91,6 +91,8 @@ In my case, this sample application opens up a lot of possibilities, I know ther
 
 As always, you can find the complete code on [github](https://github.com/fmpwizard/lift-comet-history) and thanks to David and Derek for providing the server that is hosting the demo application.
 
-Enjoy
-
-  Diego
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego

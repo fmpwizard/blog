@@ -145,7 +145,8 @@ Turns out there was a problem with the first implementation I wrote (about 1 hou
 
 To prevent this I now use `Helpers.nextFuncName` to generate a unique name for each user that comes to the application, and I then pass this value to the myCompanyjs.js file, so that the script knows which name to use.
 
-
-Thanks
-
-  Diego
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego

@@ -60,6 +60,8 @@ Here, I am simply returning a `JsCmd.Noop`, which does nothing on the UI, but yo
 
 I hope this was helpful, and I'm planning on writing a follow up post with a full example on how to use ajaxRadio, as well as radioElem.
 
-Thanks
-
-  Diego
+>Thank you for reading and don't hesitate to leave a comment/question.
+>
+>[@fmpwizard](https://twitter.com/fmpwizard)
+>
+>Diego
