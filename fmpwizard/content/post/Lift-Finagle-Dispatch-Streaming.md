@@ -11,7 +11,7 @@ aliases = [
 [date: 2012/07/1]: /
 [tags: {lift, finagle, twitter, stream, comet}]: /
 
-#Using Twitter Finagle, the Streaming api and Lift
+# Using Twitter Finagle, the Streaming api and Lift
 
 Last weekend I had a chance to try Finagle's streaming client. It wasn't that easy to find an example of how to use it, so I thought it would help to post a working example.
 

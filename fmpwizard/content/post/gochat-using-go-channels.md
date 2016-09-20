@@ -12,7 +12,7 @@ aliases = [
 [tags: {go, golang}]: /
 
 
-#GoChat - Using Go Channels
+# GoChat - Using Go Channels
 
 A couple of weeks ago I [wrote](http://blog.fmpwizard.com/blog/twitter-flight-and-go) about using Go with Twitter Flight to write web applications.
 

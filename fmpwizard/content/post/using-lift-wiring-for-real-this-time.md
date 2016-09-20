@@ -12,7 +12,7 @@ aliases = [
 [tags: {wiring, lift, liftweb, scala}]: /
 
 
-#Using lift wiring - for real this time
+# Using lift wiring - for real this time
 
 On my last [article](/blog/conditional-drop-down-ajax-vs-wiring-lift-sca) I meant to compare two ways of doing conditional drop down menus using Lift. I wanted to compare using simple Ajax and wiring. But I ended up doing both cases using Ajax :( (This is because Lift makes is so easy :P).
 
@@ -20,7 +20,7 @@ But I still wanted to use Wiring, and be able to write about it. A few nights ag
 
 What I'm showing here is how wiring can be used to filter two drop down menus based on the selection made on a third menu.
 
-#What does it do?
+# What does it do?
 
 ![Wiring Sample](/images/23821662-App_Wiring.png)
 
@@ -29,7 +29,7 @@ You select a state from one drop down menu, and the list of cities is filtered o
 
 I know this last field could have been a text field, but I wanted to show drop down menus, because there are several wiring examples out there showing how to use text fields already :)
 
-#How does it work?
+# How does it work?
 
 I define the menu with the list of states to be a value cell, this is our starting point.
 
@@ -82,7 +82,7 @@ def stateDropDown = SHtml.ajaxSelect(
 
 I'm not sure this is the best way to create the dependant menus, because I'm storing the complete html in each val, but it does the job for now.
 
-#Where is the code?
+# Where is the code?
 
 I posted a complete [application on github](https://github.com/fmpwizard/lift-conditional-drop-down-menus), feel free to leave a comment and I hope this post helps people understand wiring better.
 

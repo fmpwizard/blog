@@ -13,7 +13,7 @@ aliases = [
 
 
 
-#Back button and bookmark meet Lift comet - Revisited
+# Back button and bookmark meet Lift comet - Revisited
 
 On my quest for the ultimate bookmark and back button support for comet and ajax based lift applications, I decided to [ask on the Lift mailing list](https://groups.google.com/forum/#!topic/liftweb/wNQkUEpc7BA) how you could call Scala code from the browser. I really thought that it was going to be pretty hard to understand. But to my surprise, it was very easy.
 

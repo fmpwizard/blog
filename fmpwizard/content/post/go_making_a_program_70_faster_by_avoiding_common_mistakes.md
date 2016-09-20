@@ -8,7 +8,7 @@ tags = ["go", "golang", "mongodb", "benchmark", "performance"]
 +++
 
 
-#Go - Making a program 70% faster, by avoiding common mistakes.
+# Go - Making a program 70% faster, by avoiding common mistakes.
 
 I often read articles where a developer would say they made this or that change to their code and a benchmark shows their function going from taking ~300ns to ~170ns and they were really happy about it. I think it's great that there are devs out there really squeezing every CPU cycle they can. But this isn't one of those articles.
 

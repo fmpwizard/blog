@@ -12,7 +12,7 @@ aliases = [
 [tags: {javascript, flight, flightjs, twitter, go, golang}]: /
 
 
-#Twitter Flight and Go
+# Twitter Flight and Go
 
 The last couple of weeks I have been using the [Go language](http://golang.org/) and [twitter flight](http://twitter.github.io/flight/) for a small project. I remember watching an [introductory video](http://www.youtube.com/watch?v=rKnDgT73v8s) on go right around the time I go into Scala. It look like an interesting language, I really liked their concurrent built in approach, among other features, but it was way too new as a language for me to get into.
 
@@ -46,7 +46,7 @@ These are just very small and simple examples, but I hope it demonstrates that y
 
 I'll be exploring this idea further as time permits and I'll make sure to blog more about it, in the meantime, feel free to try out the [demo app](http://fmpwizard.com:7070/messages) and leave comments if you have them.
 
-#Sample code.
+# Sample code.
 
 There is a branch on this repository on [github](https://github.com/fmpwizard/go-examples/tree/gochat) that
 has all the code you need to run this application. All the go code is in this one [chat.go](https://github.com/fmpwizard/go-examples/blob/gochat/chat.go) file, the one thing I don't like is that I ended up with a top level var to hold all the messages, so there are potential race conditions and what not writing/reading to it, but I didn't want to spend more time making this app better. I'll clean that up when I get a chance and probably blog about using go channels or go routines for that. **Update**: *I updated the code to use go channels instead of the top level var*

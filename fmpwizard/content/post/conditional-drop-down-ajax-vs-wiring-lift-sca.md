@@ -12,7 +12,7 @@ aliases = [
 [tags: {ajax, lift, liftweb, scala, wiring}]: /
 
 
-#Conditional Drop Down - Ajax vs Wiring - Lift - Scala
+# Conditional Drop Down - Ajax vs Wiring - Lift - Scala
 
 ##Update:
 

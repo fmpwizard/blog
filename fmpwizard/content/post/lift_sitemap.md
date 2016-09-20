@@ -12,7 +12,7 @@ aliases = [
 [tags: {lift, scala, site map}]: /
 
 
-#Lift Sitemap
+# Lift Sitemap
 
 One of the many things I have recently learned from [Tim Nelson](https://twitter.com/eltimn) is how to better use `Sitemap`.
 

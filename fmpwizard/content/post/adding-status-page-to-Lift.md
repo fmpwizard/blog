@@ -11,7 +11,7 @@ aliases = [
 [date: 2013/1/12]: /
 [tags: {lift, scala, stateless, monitoring}]: /
 
-#Status page for your Lift server.
+# Status page for your Lift server.
 
 For the past week I have been building a little Lift application to run on a [Raspberry Pi](http://www.raspberrypi.org/) computer. This application is supposed to control the GPIO pins that come on the Raspberry Pi.
 

@@ -11,7 +11,7 @@ aliases = [
 [date: 2012/09/5]: /
 [tags: {lift, H2, scala}]: /
 
-#H2 web console and Lift
+# H2 web console and Lift
 
 At work we use H2 as the default database while we develop our apps. This helps because t's just easy to setup and if anything goes wrong, we just delete the file and restart our application.
 
@@ -51,7 +51,7 @@ And add these lines to Boot:
 
 This is tested with H2 version `1.3.149`
 
-#Final notes
+# Final notes
 
 After you restart jetty, you can go to [http://127.0.0.1:8080/console](http://127.0.0.1:8080/console/) and you will see a login screen, don't enter anything for the username and password, simply click `Connect`and you'll be in.
 

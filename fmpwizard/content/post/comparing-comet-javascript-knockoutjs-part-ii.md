@@ -12,7 +12,7 @@ aliases = [
 [tags: {lift, Scala, comet actors, comet, actors, knockoutjs, javascript}]: /
 
 
-#Different ways to use Comet Actors in Lift (Part II).
+# Different ways to use Comet Actors in Lift (Part II).
 ####With some bits of knockout.js
 
 ####Update: I have updated the source code on the github branch, and there is part III, using [AngularJS](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-angularjs-part-iii).

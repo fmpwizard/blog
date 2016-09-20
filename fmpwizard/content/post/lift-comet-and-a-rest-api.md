@@ -12,7 +12,7 @@ aliases = [
 [tags: {actor, comet, jvm, lift, liftweb, rest, restfull, scala}]: /
 
 
-#Scala + Lift + Comet + REST Support
+# Scala + Lift + Comet + REST Support
 
 ![Comet](/images/21750593-comet_west.gif)
 

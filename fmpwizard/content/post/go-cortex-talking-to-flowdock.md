@@ -12,7 +12,7 @@ aliases = [
 [tags: { go, golang, wit, machine learning, raspberrypi, cortex, IoT, flowdock}]: /
 
 
-#Go Cortex - talking to Flowdock
+# Go Cortex - talking to Flowdock
 
 While on one side Go-Cortex let's me control an Arduino using [voice recognition](http://blog.fmpwizard.com/blog/voice-command-for-arduino-and-raspberry-pi-using-sms), I also wanted to expand Cortex into helping me and my team at [Brokc Alloy](http://brickalloy.com/). we currently use flowdock for internal conversations and there were two things that I wasn't too happy about:
 

@@ -13,7 +13,7 @@ aliases = [
 [tags: {apachehttpclient, crawler, httpclient, robots, scala, spider}]: /
 
 
-#Using Apache httpclient Authentication in Scala
+# Using Apache httpclient Authentication in Scala
 
 One of the things I love the most is the web, there is so much information out there, just waiting to be found. Something else I love is writing web crawlers/spiders. So it was just natural that I would look into writing one using Scala.
 
@@ -170,7 +170,7 @@ Thanks and Enjoy!
 ```
 
 
-#PreemptiveAuth class
+# PreemptiveAuth class
 ```
 
 import org.apache.http.HttpRequest

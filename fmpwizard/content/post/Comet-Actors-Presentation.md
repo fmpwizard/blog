@@ -11,7 +11,7 @@ aliases = [
 [date: 2013/1/5]: /
 [tags: {lift, scala, comet actors, comet, actors}]: /
 
-#Comet Actors in Lift.
+# Comet Actors in Lift.
 
 One of my favorite features in Lift is **Comet Actors**, I love how easy they are to reason about, and they work great.
 

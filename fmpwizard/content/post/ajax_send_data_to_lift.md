@@ -11,7 +11,7 @@ aliases = [
 [date: 2012/12/7]: /
 [tags: {lift, scala, JsCmd, ajax}]: /
 
-#How does T => JsCmd send data to Lift?
+# How does T => JsCmd send data to Lift?
 
 I remember my first few interactions with Lift's ajax support, which were also my first few interactions with Scala. It was pretty hard to get my head around some of the method signatures I would find all across Lift's source code.
 

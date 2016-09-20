@@ -11,7 +11,7 @@ aliases = [
 [date: 2013/3/5]: /
 [tags: {lift, Scala, comet actors, comet, actors, LAFutures, Futures, javascript}]: /
 
-#Using LAFutures with snippets in Lift 2.x
+# Using LAFutures with snippets in Lift 2.x
 
 ###Update
 
@@ -204,7 +204,7 @@ This could be considered a hack, or maybe it is the proper way, but basically we
   }
 ```
 
-#Sample application and code.
+# Sample application and code.
 
 You can find a fully runnable application that includes the code listed here on [github](https://github.com/fmpwizard/lift_starter_2.4/tree/lafutures) (on the lafutures branch).
 

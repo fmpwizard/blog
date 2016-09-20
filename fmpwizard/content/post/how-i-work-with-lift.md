@@ -11,7 +11,7 @@ aliases = [
 [date: 2012/11/29]: /
 [tags: {lift, scala, intellij, IDEA, sbt}]: /
 
-#How I work with Lift.
+# How I work with Lift.
 
 Something I enjoy very much is teaching, specially when Lift is involved. Mainly because I learn a lot by teaching others, and secondly because I have learned a lot thanks to those who spent the time to either teach me directly, or indirectly through blog posts, articles, etc.
 

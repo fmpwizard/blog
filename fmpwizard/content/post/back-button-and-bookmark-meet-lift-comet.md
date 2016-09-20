@@ -11,7 +11,7 @@ aliases = [
 [date: 2011/06/15]: /
 [tags: {ajax, backbutton, bbq, bookmark, comet, jquery, lift, liftweb, scala}]: /
 
-#Back button and bookmark meet Lift comet
+# Back button and bookmark meet Lift comet
 
 One of the first, if not the first question, that I asked on the mailing list was if Lift had support for browser history when doing ajax requests.
 
@@ -24,7 +24,7 @@ After much thinking, and reading this _answer_ (I can't find the thread any more
 
 To see this in action, please clone and start the [sample application](https://github.com/fmpwizard/lift-comet-history)
 
-#What does it do?
+# What does it do?
 
 ![Diagram](/images/27764656-back-button-lift-comet.png)
 

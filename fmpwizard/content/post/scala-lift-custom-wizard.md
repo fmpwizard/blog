@@ -14,7 +14,7 @@ aliases = [
 
 
 
-#Scala / Lift - Custom Wizard
+# Scala / Lift - Custom Wizard
 
 **Lift** has an amazing component to write applications like surveys, it is called wizard. And you can find more information on the [Simply Lift book][1].
 

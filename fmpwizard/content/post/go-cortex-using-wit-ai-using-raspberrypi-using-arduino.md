@@ -11,7 +11,7 @@ aliases = [
 [tags: { go, golang, wit, machine learning, arduino, raspberrypi, cortex}]: /
 
 
-#Go Cortex - using Wit.ai on a raspberry pi connected to an arduino and written in go
+# Go Cortex - using Wit.ai on a raspberry pi connected to an arduino and written in go
 
 ##What is it?
 
@@ -159,11 +159,11 @@ And now we are using the same web server code that [dl.google.com uses - take a 
 
 Go is a simple language, easy to learn, with a standard library that has pretty much everything you need (for most cases). It runs fast, compiles fast (0.6 seconds on my regular laptop, 16 seconds on a raspberry pi) And it starts up in less than a second.
 
-#Final thoughts.
+# Final thoughts.
 
 Open an account with [Wit](https://wit.ai/) and try [Go!](http://golang.org)
 
-#Source Code
+# Source Code
 
 All the code is on [github](https://github.com/fmpwizard/go-cortex). Feel free to leave a comment/question.
 

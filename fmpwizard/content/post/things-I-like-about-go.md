@@ -12,7 +12,7 @@ aliases = [
 [tags: { go, golang, scala}]: /
 
 
-#Things I like about Go
+# Things I like about Go
 
 I was going to start this post by pointing out all the bad things about Scala and how great Go is, but I decided against it, Go is such a great language, that you don't need to trash another language to point out Go's strengths. So here, I'm going to list how awesome a language Go is.
 

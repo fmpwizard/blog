@@ -11,7 +11,7 @@ aliases = [
 [date: 2014/03/09]: /
 [tags: { go, golang, wit, machine learning, arduino, raspberrypi, cortex, IoT}]: /
 
-#Go Cortex
+# Go Cortex
 ##Using voice recognition and an ultrasonic sensor
 
 

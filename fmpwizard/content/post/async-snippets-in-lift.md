@@ -11,7 +11,7 @@ aliases = [
 [date: 2013/3/8]: /
 [tags: {lift, Scala, comet actors, comet, actors, LAFutures, Futures, async, asynchronous, snippet}]: /
 
-#Asynchronous snippets in Lift 2.5
+# Asynchronous snippets in Lift 2.5
 
 On my last [post](https://fmpwizard.telegr.am/blog/lift-snippets-and-lafutures) I wrote about using `LAFutures` on your snippets. And one of the things I said was that the syntax I was looking for was this:
 
@@ -56,7 +56,7 @@ But other than that, your application just deals with `LAFutures` and Lift does 
 
 
 
-#Sample application and code.
+# Sample application and code.
 
 You can find a fully runnable application that includes the code listed here on [github](https://github.com/fmpwizard/lift_starter_2.4/tree/la-futures-2) (on the la-futures-2 branch).
 

@@ -12,7 +12,7 @@ aliases = [
 [tags: { lift, grunt, gruntjs, bower, javascript, css, minification}]: /
 
 
-#Using Grunt and Bower with Lift
+# Using Grunt and Bower with Lift
 I'm very grateful that I always get a chance to work with very smart people, and I get the chance to learn new tools, languages, techniques, etc. Here I'll talk about [Grunt](http://gruntjs.com/), which [Tim Nelson](https://twitter.com/eltimn) introduced me to. And I'll talk a bit about [Bower](http://bower.io/) and how they can work together to help you in your [Lift](http://liftweb.net/) applications.
 
 ##What is Grunt?

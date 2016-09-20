@@ -11,7 +11,7 @@ aliases = [
 [date: 2014/04/26]: /
 [tags: { go, golang, closures}]: /
 
-#Getting fancy with closures in Go
+# Getting fancy with closures in Go
 
 While at the hackday at [Gophercon](http://www.gophercon.com/) I thought it would be a good idea to do some code refactoring of [Cortex](http://blog.fmpwizard.com/blog/go-cortex-talking-to-flowdock).
 

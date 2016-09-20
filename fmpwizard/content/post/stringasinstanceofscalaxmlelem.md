@@ -13,7 +13,7 @@ aliases = [
 [tags: {lift, Scala, xml}]: /
 [path: /stringasinstanceofscalaxmlelem]: /
 
-#String.asInstanceOf[scala.xml.Elem]
+# String.asInstanceOf[scala.xml.Elem]
 
 
 Up until a few weeks ago I was mostly using Scala to read Json data, but the time came when I had to read some XML. I already had a method to read the Json output from a web service, which returns a StringBuilder. So I thought that I could simply use: (This is just a simplified code sample)

@@ -11,7 +11,7 @@ aliases = [
 [date: 2012/07/28]: /
 [tags: {lift, jQuery, textile, scala}]: /
 
-#Textile and Lift
+# Textile and Lift
 
 One way **Lift** makes developing applications fun, is by taking care of security for you. Most of the time, you don't have to worry about common hacking attacks like `XSS`, this is because Lift doesn't treat your data as plain Strings, it treats them as `NodeSeq`. Instead of displaying html tags, it will html encode them, before returning them the browser.
 

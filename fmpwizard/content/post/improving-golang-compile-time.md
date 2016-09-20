@@ -11,7 +11,7 @@ aliases = [
 [tags: {go, golang, development, compiler, speed}]: /
 
 
-#Improving compile time in Go
+# Improving compile time in Go
 
 The Go compiler is really fast, and I got so used to it that when compiling [OwlCrawler](https://github.com/fmpwizard/owlcrawler) was taking about 8 seconds I started to worry (granted I generate 3 executable files).
 

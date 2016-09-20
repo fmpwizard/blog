@@ -11,7 +11,7 @@ aliases = [
 [date: 2013/3/26]: /
 [tags: {lift, Scala, comet actors, comet, actors, angularjs, javascript}]: /
 
-#Different ways to use Comet Actors in Lift (Part III).
+# Different ways to use Comet Actors in Lift (Part III).
 ####AngularJS' turn
 
 On my [previous post](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-knockoutjs-part-ii), I showed how you could write a simple chat application using different techniques. The last technique was using knockoutjs, but recently there have been several posts on the Lift mailing list about AngularJS, and as I wanted to try it out, I thought it would be interesting to see what a chat application using angularJS would look like.
@@ -73,7 +73,7 @@ You can see the complete [angular javascript](https://github.com/fmpwizard/lift_
 
 
 
-#Live demo.
+# Live demo.
 
 This time I went ahead and uploaded this sample application to [openshift](https://chat-fmpwizardlift.rhcloud.com/chat-angularjs), so go ahead and try it out.
 

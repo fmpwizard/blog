@@ -12,7 +12,7 @@ aliases = [
 [tags: {actor, comet, jvm, lift, liftweb, scala}]: /
 
 
-#Lift comet actor per tab library
+# Lift comet actor per tab library
 
 I [wrote in the past](/blog/lift-comet-and-a-rest-api) about having different comet actors on the same window but on different tabs. This in a use case that I run into pretty often. And as I was getting tired of copying and pasting the same files over and over, I decided to write a little library to do just that, allow you to have different actors per browser tab without having to worry about dispatchers, etc.
 

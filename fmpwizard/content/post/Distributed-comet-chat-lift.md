@@ -10,7 +10,7 @@ aliases = [
 [date: 2012/07/14]: /
 [tags: {lift, finagle, comet, cluster, distributed}]: /
 
-#A distributed Lift Comet Chat Application
+# A distributed Lift Comet Chat Application
 Lift has very powerful comet support, and 2.5 is bringing even better support. But one of the things I always wondered about was, how to have comet work across several containers.
 
 A few months ago I had an idea of how to do this, and was planning on talking about it at OSCON, but my talk wasn't accepted. Then I decided I could just blog about it and here we are.

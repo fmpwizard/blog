@@ -11,7 +11,7 @@ aliases = [
 [date: 2013/2/26]: /
 [tags: {lift, Scala, raspberrypi, gpio, comet actors, comet, actors, pi4j}]: /
 
-#Lift and Raspberry Pi
+# Lift and Raspberry Pi
 
 Several months ago I [blogged](http://blog.fmpwizard.com/arduino-and-lift-controlling-a-servo-motor) about controlling a servo motor with an Arduino board and a Lift application running on my computer.
 

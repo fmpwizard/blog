@@ -11,7 +11,7 @@ aliases = [
 [tags: {javascript, flight, flightjs, twitter}]: /
 
 
-#Getting Started with Twitter Flight - Book review.
+# Getting Started with Twitter Flight - Book review.
 
 About two weeks ago I was asked if I could review a book about Twitter Flight. That email came in at the right time, as I was looking into trying some new language and/or framework and Flight was something I had in my list of frameworks to try out.
 

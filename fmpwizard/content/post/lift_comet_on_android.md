@@ -10,7 +10,7 @@ aliases = [
 [date: 2015/07/19]: /
 [tags: {lift, android, sdk, google cloud messaging}]: /
 
-#Lift Comet for native Android apps
+# Lift Comet for native Android apps
 
 A very powerful feature in Lift is its comet support, with very little code you can have an app that gives feedback to your users in real time. If you are new to the concept, these [videos](http://blog.fmpwizard.com/blog/comet-actors-presentation) may help you.
 

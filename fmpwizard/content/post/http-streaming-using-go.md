@@ -11,7 +11,7 @@ aliases = [
 [date: 2014/04/04]: /
 [tags: { go, golang, cortex, http, streaming}]: /
 
-#HTTP Streaming Using Go
+# HTTP Streaming Using Go
 
 As I continue adding features to [Cortex](https://github.com/fmpwizard/go-cortex) I needed to connect to the streaming api that Flowdock provides.
 

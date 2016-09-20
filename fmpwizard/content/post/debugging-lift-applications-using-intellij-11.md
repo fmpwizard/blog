@@ -11,7 +11,7 @@ aliases = [
 [date: 2012/01/28]: /
 [tags: {debug, debugging, idea, intellij, lift, liftweb, sbt, scala}]: /
 
-#Debugging Lift applications using IntelliJ 11 and SBT
+# Debugging Lift applications using IntelliJ 11 and SBT
 
 From time to time someone will come to the Lift mailing list asking how to debug their applications from an IDE. I have to confess that most of the time I simply use println or write a spec2 test.
 

@@ -11,7 +11,7 @@ aliases = [
 [tags: {fileupload, lift, liftweb, scala}]: /
 
 
-#File Upload with Lift - Scala
+# File Upload with Lift - Scala
 
 As I continue to use Lift, I decided to add a file upload to one of my side projects. I had seen the SHtml.fileUpload method before, so I thought it was going to be one of those 5 minutes things.
 
