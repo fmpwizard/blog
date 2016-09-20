@@ -12,14 +12,14 @@ aliases = [
 [tags: { go, golang, wit, machine learning, arduino, raspberrypi, cortex, IoT}]: /
 
 # Go Cortex
-##Using voice recognition and an ultrasonic sensor
+## Using voice recognition and an ultrasonic sensor
 
 
 Last week I [released](http://blog.fmpwizard.com/blog/go-cortex-using-wit-ai-using-raspberrypi-using-arduino) a small project I was working on. After I published it, I kept thinking of different ways to use it and how to make it better. I wasn't too happy with the idea that I had to type my message on the browser, so Cortex could process it. My goal is to have Cortex run on several raspberry pi computers all across my house, and somehow have them all waiting for commands, but I didn't want to have to manually interact with them.
 
 ![Arduino, raspberry pi, ultrasonic sensor with go-cortex](/images/cortex-1.jpg)
 
-##Finding the light.
+## Finding the light.
 
 I knew I didn't want to record every single word we spoke in my house, send them to the [Wit speech endpoint](https://wit.ai/docs/api#toc_9), and have it check if the word we just spoke was a `trigger` word. That felt very wasteful. I then started to look for a simple way to detect just one word locally on the raspberry pi, this turned out to be pretty involved, the closest would have been to get the [EasyVR Shield](https://www.sparkfun.com/products/12656) for the arduino, and have it send a command to the raspberry pi once it heard the trigger command. This wouldn't be too bad, but I didn't want to have to wait for shipping, etc before I could continue working on `Cortex`.
 
@@ -27,7 +27,7 @@ And all of the sudden, it clicked! I had an [ultrasonic distance sensor](http://
 
 ![Arduino, raspberry pi, ultrasonic sensor with go-cortex](/images/cortex-2.jpg)
 
-##Some internals.
+## Some internals.
 
 Now my arduino board has two roles, on one hand it has the distance sensor checking to see if there is anything in front of it, and once there is, it sends a little signal to the raspberry pi (or any computer connected using the USB port), so that it knows it is time to record voice.
 
@@ -132,7 +132,7 @@ Once we have the wav file, I send it to Wit's speech uri, and I get back the sam
 
 In a way, it all starts on the arduino board, and it ends there, when it turns LEDs on or off :)
 
-##Final notes.
+## Final notes.
 
 Adding this new feature was really simple, what took me the longest was to find the right sox parameter and get it to use my usb microphone.
 
@@ -196,11 +196,11 @@ func processWitResponse(message io.ReadCloser) WitMessage {
 
 I love that wheter I use the speech or text api, I still get the same json structure from [Wit](https://wit.ai/)
 
-##Source code.
+## Source code.
 
 All the updated code is on the [github repo (tag v0.3) ](https://github.com/fmpwizard/go-cortex/tree/v0.3)
 
-##Demo.
+## Demo.
 
 I'm working on a video demo so you can **see** how it all works together. Once I have it ready I'll add a new post to my blog. But to give you a taste, these are the logs from a test run:
 
@@ -241,7 +241,7 @@ I'm working on a video demo so you can **see** how it all works together. Once I
 
 ```
 
-##Update
+## Update
 
 [here](http://blog.fmpwizard.com/blog/voice-command-for-arduino-and-raspberry-pi-using-sms) you will find a demo video with diagrams of it all works together
 

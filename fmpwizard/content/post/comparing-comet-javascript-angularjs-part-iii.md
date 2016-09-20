@@ -16,7 +16,7 @@ aliases = [
 
 On my [previous post](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-knockoutjs-part-ii), I showed how you could write a simple chat application using different techniques. The last technique was using knockoutjs, but recently there have been several posts on the Lift mailing list about AngularJS, and as I wanted to try it out, I thought it would be interesting to see what a chat application using angularJS would look like.
 
-##AngularJS
+## AngularJS
 
 The server side code for the AngularJS comet is pretty much the same as in the other cases, I did make some changes, for example, instead of passing a `Vector[String]`, I know pass a case class that has one value member, the vector. This eliminates a compiler warning I was getting before. (I fixed it on all comet implementations that are on this sample application).
 
@@ -78,14 +78,14 @@ You can see the complete [angular javascript](https://github.com/fmpwizard/lift_
 This time I went ahead and uploaded this sample application to [openshift](https://chat-fmpwizardlift.rhcloud.com/chat-angularjs), so go ahead and try it out.
 
 
-##Code sample.
+## Code sample.
 
 You will find a complete chat application on [github](https://github.com/fmpwizard/lift_starter_2.4/tree/compare-chat-apps-comet-lift) (note the branch name if you pull it locally).
 
 after you start the app, you will see the three implementations, each on its own page, so you can compare them.
 
 
-##Final note.
+## Final note.
 
 I have only used Angular over the weekend, but I look forward to using it more on side projects. So far, I like it a lot, and I was happy to watch one of their videos, where they said they are working with browser vendors to get something similar to how angular updates the DOM, but built in into browsers. While this may be a few years away, it's great to see that they want to make the web a better place.
 

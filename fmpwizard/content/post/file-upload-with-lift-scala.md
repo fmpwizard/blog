@@ -38,7 +38,7 @@ You can think of `multipart=true` is one more parameter that is sent to `lift:Up
 
 I hope that this would save you some time, and if not, at least it reinforces the importance of asking on the [mailing list](https://groups.google.com/forum/#!forum/liftweb) and providing a [sample application](https://www.assembla.com/wiki/show/liftweb/Posting_example_code) to reproduce your problem.
 
-##Sample application.
+## Sample application.
 
 I put together a sample application that uses the CSS Selector Transformation (also known as designer friendly template) and it is hosted on [github.com](https://github.com/fmpwizard/lift_fileupload)  
 

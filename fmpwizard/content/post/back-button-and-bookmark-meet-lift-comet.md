@@ -77,17 +77,17 @@ case CityStateUpdate(cometName, city, state) => {
 }
 ```
 
-##What about the back button?
+## What about the back button?
 
 Now, look at the url, if you clicked on the 1 link, the url will now have a fragment, it has **#bbq1=1**. You can now go ahead and click on the other links. You will notice that the url fragment changes, the city and state change, but there is no full page refresh.
 
 You can click on the back button on your browser and the city and state values will update accordingly. You can even have multiple tabs open simultaneous and each of them will have its own city and state. I’m able to achieve this by using different comet actors on each tab.
 
-##Final thoughts.
+## Final thoughts.
 
 In my case, this sample application opens up a lot of possibilities, I know there may be other ways of implementing the back button / bookmark feature, like the one outline [here](https://groups.google.com/forum/#!topic/liftweb/_A-Zg7oFBhQ), but I’m pretty happy with using a REST API and jQuery. Oh, and I’m using the BBQ jQuery plugin to do the hashtag magic.
 
-##Where is the code?
+## Where is the code?
 
 As always, you can find the complete code on [github](https://github.com/fmpwizard/lift-comet-history) and thanks to David and Derek for providing the server that is hosting the demo application.
 

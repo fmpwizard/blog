@@ -17,7 +17,7 @@ Something I enjoy very much is teaching, specially when Lift is involved. Mainly
 
 Since I joined Elemica about 9 months ago, I have spent a good amount of time sharing what I know about Lift, Scala and web security with my team members. And today I'd like to talk about my work setup. I'll cover some simple tips about SBT and Intellij.
 
-##IDE and Build tool.
+## IDE and Build tool.
 
 My IDE of choice is [IntelliJ IDEA](http://www.jetbrains.com/idea/) with the [Scala plugin](http://confluence.jetbrains.net/display/SCA/Scala+Plugin+for+IntelliJ+IDEA). You will find that people use all kinds of IDEs, I tried a few, and I'm sticking with IDEA.
 
@@ -26,7 +26,7 @@ For building my Lift applications, I use [SBT 0.12](https://github.com/harrah/xs
 And to have SBT and IntelliJ play nicely together, I use the [SBT IDEA](https://github.com/mpeltonen/sbt-idea/tree/sbt-0.12) plugin
 
 
-##Documentation
+## Documentation
 
 I find reading the Lift source code very helpful, so I always keep a clone of the framework repository on my laptop, and I add this project to Intellij, so I can switch from my current project to the framework project, and have full access to navigation/search/etc.
 
@@ -39,7 +39,7 @@ A simple
 
 You can now open the framework project in Intellij, and it will let you navigate the source, etc.
 
-##Work flow.
+## Work flow.
 
 I always have a few terminal tabs open (an average of 8), one tab runs **sbt**, and another is open so I can work with **git**.
 
@@ -71,7 +71,7 @@ The second reason is that I find Firebug a lot easier to use than the Chrome dev
 
 This only applies to those who use a laptop to work, and no external monitor. The only application that is fully maximized is the terminal, and the tab that is active most of the time is the one running **sbt**, then the browsers/IntelliJ/etc are almost maximized, but the lower area is pulled up just enough so that I can see if sbt gave me a compiler error, or a test failure. This saves me the need to switch screens as I try different things on my snippet code.
 
-##Final notes
+## Final notes
 
 There is a lot more that goes on in a normal day with Scala and Lift, but this is enough for this post, I hope you find some of it useful, but at the end of the day, you need to find what works best for you, this is just my opinionated setup.
 

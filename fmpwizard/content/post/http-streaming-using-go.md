@@ -17,7 +17,7 @@ As I continue adding features to [Cortex](https://github.com/fmpwizard/go-cortex
 
 A quick Google search took me to this [post](http://dmathieu.com/articles/development/golang-streaming/) which shows how to do that. It works, but while I was reading the code, it looked pretty low level for my taste. So I decided to try and use the [http](http://golang.org/pkg/net/http/) package.
 
-##Making the initial request
+## Making the initial request
 
 
     url := "https://stream.flowdock.com/flows?filter=fmpwizard/mission-control"

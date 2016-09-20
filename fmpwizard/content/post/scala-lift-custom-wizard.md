@@ -65,7 +65,7 @@ You then pretty much duplicate the same idea across all pages.
 
 This example project includes a back button on each form and it also support the browser back button.
 
-##Call Scala code from JavaScript.
+## Call Scala code from JavaScript.
 
 This is a question that has been coming up on the mailing list more and more often. The usual answer is to use `jsonCall` or `ajaxCall` (and soon we will have ljsonCall, but there will be a full post just for that :) (update, the current jsonCall in  LIft >=2.5 is the improved version, we decided not to change the name.) )
 
@@ -86,7 +86,7 @@ def finalScreen ={
   }
 ```
 
-##Drawbacks.
+## Drawbacks.
 
 One thing I don't like about this technique is that if you have 10 form fields, you will need 10 RequestsVar’s and 10 val's. I'm planning on trying different ways to solve this.
 
@@ -94,11 +94,11 @@ One way I'm thinking is by using actors (I know, it sounds kind of odd, but I li
 
 But in the meantime, you have something to work with.
 
-##Code.
+## Code.
 
 You can find the full source code on github.
 
-##Feedback.
+## Feedback.
 
 I'm happy to hear any feedback you may have, so feel free to email me on the Lift mailing list.
 

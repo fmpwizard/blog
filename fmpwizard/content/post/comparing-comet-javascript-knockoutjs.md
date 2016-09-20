@@ -17,7 +17,7 @@ aliases = [
 Lift has many great fundamental features, focusing on security at its core is one of them, and another one is the ability to take a feature like its comet support and integrate it with JavaScript (and any JavaScript framework you wish to use).
 
 
-##Background.
+## Background.
 
 When I started using **Lift**, most of the code I wrote was in scala, but then I needed to add some dynamic magic to them, so I started adding JavaScript in different places. Sadly, I got into the habit of inlining a lot of JAvaScript in my scala code.
 
@@ -27,7 +27,7 @@ Then, I started moving some of that JAvaScript to my html templates, that was be
 
 While better than before, now my html pages were a huge mess of html markup and javascript.
 
-##Getting better.
+## Getting better.
 
 Lucky for me, I got a chance to pick [Tim Nelson](https://twitter.com/eltimn)'s brain for a few months and I learned a lot about better JavaScript practices. The biggest thing was to really move all JavaScript into a proper `.js` file. And to help me start off with JavaScript on the right path, he recommended [JavaScript: The Good Parts](http://books.google.com/books?id=PXa2bby0oQ0C&source=gbs_slider_cls_metadata_1_mylibrary), while an old book, it was a great read. Oh, and he also introduced me to knockout.js, even though I showed a lot of resistance to it, I felt dirty letting JavaScript handle logic that in the past would have been encoded in my Lift code.
 
@@ -41,7 +41,7 @@ Now, I'm really enjoying the mix of Lift, specially comet actors, and knockout. 
 
 On the browser I have ko listening for certain events, and then ko takes care of updating the UI as needed. This also accelerates development, because as I try different ways to render the information, or different ways to handle the json data, all I do is change a javascript file, reload the browser page, and I'm done, while in the past I had to do a quick scala recompile of the class I modified.
 
-##Drawbacks.
+## Drawbacks.
 
 There are still some issues that I hope to solve in the near future. Mainly, I don't like that I need to keep case classes that hold my data (which I then decomposed into json using Lift-json), in sync with the json structure that knockout expects.
 

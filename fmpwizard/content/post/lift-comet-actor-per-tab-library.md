@@ -16,7 +16,7 @@ aliases = [
 
 I [wrote in the past](/blog/lift-comet-and-a-rest-api) about having different comet actors on the same window but on different tabs. This in a use case that I run into pretty often. And as I was getting tired of copying and pasting the same files over and over, I decided to write a little library to do just that, allow you to have different actors per browser tab without having to worry about dispatchers, etc.
 
-##Sample application
+## Sample application
 
 Imagine you are running a site like ebay, your users are watching two different auctions on two different tabs. You could simply have one comet actor handling the load and choosing when to update each tab, or you could have one comet per auction. I prefer the second option.
 
@@ -26,7 +26,7 @@ I use the name of the actor in two places. As the key for the Map of actor names
 
 I had explained how all these works in detail on a previous blog, but on that code there was a bug where dead actors, those that have not been on a page for a while, would stay on the map of names -> dispatchers. On this new version, I use the localShutdown method to unregister the comet actor right before it is shutdown by Lift.
 
-##How can I use it?
+## How can I use it?
 
 In most cases you would only directly use three classes/traits. You would extend the trait InsertNamedComet. All you do here is override two lazy vals,
 
@@ -58,7 +58,7 @@ CometListerner.listenerFor(Full(item)) match {
 
 And that’s all. The library will take care of only sending updates to the actors that need the information.
 
-##Code and Demo?
+## Code and Demo?
 
 As always, you can access the source code of the library on github and the source of the demo application is also on [github](https://github.com/fmpwizard/lift_auction).
 

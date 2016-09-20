@@ -18,7 +18,7 @@ aliases = [
 
 [OwlCrawler](https://github.com/fmpwizard/owlcrawler) is a simple yet distributed web crawler I'm working onto learn [Mesos](http://mesos.apache.org/). I'm using the [mesos go](https://github.com/mesos/mesos-go) binding to write the logic and use [Iron MQ](http://www.iron.io/mq) to trigger tasks that fetch pages. At this point I'm storing the url and html in [etcd](https://github.com/coreos/etcd) but I have plans to move that to CouchDB in the near future.
 
-##A bit of history.
+## A bit of history.
 
 Writing a web crawler is something I have been thinking about for several years now, when I first started using Scala many years ago, I thought actors would be a great tool to have workers go out and do the crawling. At that time [Akka](http://akka.io/) didn't have remote actors in place and even after they added them, it felt to me that setting up the different members of the cluster wasn't as simple as I wanted it to be, note that in my case, this is just a personal project, so I was looking for something simple and fun to use.
 

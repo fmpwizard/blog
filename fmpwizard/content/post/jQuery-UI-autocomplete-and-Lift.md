@@ -16,7 +16,7 @@ A couple of days ago I had to rework an autocomplete widget we had at work.
 
 The old implementation was using Lift as a REST service, and then jQuery to do the autocomplete. It worked well, but it was exposing some internal database IDs and I knew we could do better.
 
-##The goals.
+## The goals.
 
 I had a few ideas of what I wanted to get out of this rewrite:
 
@@ -24,7 +24,7 @@ I had a few ideas of what I wanted to get out of this rewrite:
 2. It should only send the minimum required information to the client.
 3. It should not expose internal database IDs.
 
-##Some code.
+## Some code.
 _Well, a lot of code._
 
 ####Snippet
@@ -106,7 +106,7 @@ Later, on my JavaScript function, I take the value from the href to set the `sel
 
 Note that the JavaScript autocomplete code does not have to be so much, we are just using several options to fit our needs.
 
-##Summary.
+## Summary.
 The basic idea behind this approach is that instead of having a REST API endpoint to server my results, I'm simply passing a JavaScript Array to the autocomplete jQuery code. And then I use this data to populate the drop down menu. To jQuery, it is a local source, but thanks to Lift Is is actually dynamic information based on the data you enter on the search box.
 
 I use this same technique with jQuery DataTables, I tell jQuery that the source is a local array, but I regenerate the values based on the results processed by my snippet.

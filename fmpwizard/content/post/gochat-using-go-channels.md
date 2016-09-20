@@ -20,7 +20,7 @@ But I didn't put too much emphasis on the go code, it was mostly to highlight so
 
 This post is more about the go code.
 
-##Using Go channels.
+## Using Go channels.
 
 One of the main features I like from Go is that it has concurrency solutions built into the language itself. Go offers goroutines and channels. In a nutshell, **goroutines** can spawn tasks to run in the background, they are light weight, so you can safely have thousands of them and not have to worry about overhead, etc. **Go Channels** are a type-safe way to communicate. If you are used to the **Actor model**, think of channels as an actor, but they have types, so if you declare a channel to handle `Strings`, it will only work with strings, which is great.
 

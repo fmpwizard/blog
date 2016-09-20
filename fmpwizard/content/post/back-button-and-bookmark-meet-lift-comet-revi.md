@@ -19,7 +19,7 @@ On my quest for the ultimate bookmark and back button support for comet and ajax
 
 There are at least three methods, **ajaxCall**, **ajaxInvoke** and **jsonCall** (all in the SHtml object). This time I'm using **jsonCall**.
 
-##Why do I need this?
+## Why do I need this?
 
 Because when you visit a link that has been bookmarked or shared by email, etc, I needed a way to execute some Scala code that would update the UI based on the values on the URL after the **# hashtag** (this is the fragment of the URL.)
 
@@ -117,11 +117,11 @@ def updateCity(x: Any) : JsCmd = {
 
 Not the best thing but it gets the job done, if you have any better idea, please let me know. David did asked me to enter a [ticket](https://github.com/lift/framework/issues/1070) to add a jsonCall version that would return a JValue, which you can then work with using lift-json.
 
-##What happened to the rest api?
+## What happened to the rest api?
 
 If you read my [previous blog post](/blog/back-button-and-bookmark-meet-lift-comet) you would have noticed that I used a REST API because I needed a way to execute Scala code triggered by the browser. jsonCall does this in a much cleaner way, so out with the REST code.
 
-##How does it work?
+## How does it work?
 
 
 ![Image 1](/images/29085878-download.png)
@@ -156,19 +156,19 @@ http://127.0.0.1:8080/2/liftactorform2 to
 
 http://127.0.0.1:8080/2/liftactorform2#bbq1=2
 
-##Bookmark and back button magic.
+## Bookmark and back button magic.
 
 When you load a page that has a value after the hashtag, there is JavaScript that gets executed. This JavaScript extracts our comet name as well as the fragment from the url and executes the jsonCall that correspond to the correct link you would click to get the same city and state. This is kind of to save some effor, but is something that I may change in future versions, because I think it is pretty fragile.
 
 From this point on, it is the same as if you clicked on a link.
 
-##Final thoughts.
+## Final thoughts.
 
 On the live demo, there is a lot of JavaScript that was manually added to the default.html template. Take a look at that file if there are things that don’t quite make sense, and of course, leave a comment or email the mailing list if you have any questions.
 
 I have plans to improve on this example, but I think that this is a good proof of concept that you do not have to say goodbye to sharing links or other things we are used to on the web just because you have some ajax calls on your application.
 
-##Code Sample?
+## Code Sample?
 
 Sure, you can find the source code is on [github](https://github.com/fmpwizard/lift-comet-history)
 

@@ -33,7 +33,7 @@ And the idea was that the page will load right away, and once the `LAFuture` had
 
 One way to do this kind of tasks, is to convert your snippet into a CometActor. But this isn't always what you want.
 
-##The result.
+## The result.
 
 ![LAFutures and Lift snippets](/images/lafutures-1.jpg "Using Lift's LAFutures on snippets")
 
@@ -71,7 +71,7 @@ class Sample extends Loggable {
 
 You can see that we have two `LAFutures` `f1` and `f2` and some initial data as a placeholder for `"#future1 *"` and `"#future2 *"`
 
-##The inner workings.
+## The inner workings.
 
 The object `AddFutureCallback` replaces the element with the id **js** with two ajax calls (they are ajaxInvoke in this case).
 
@@ -109,7 +109,7 @@ If we go back to the original example, we are using
 
 This means that `f1` is the LAFuture we are working with, `querySlowService1` will be called at render time, and it will go and fetch some data to fulfill the LAFuture (imagine this being a service calling Amazon's S3 or doing some other slow data retrieval). `giveMeFuture1` knows how to convert the result of the Future into javascript that will update the page, and finally, `future1` is the id of a span element I have in `index.html`
 
-##Demo
+## Demo
 
 
 <p>
@@ -117,7 +117,7 @@ This means that `f1` is the LAFuture we are working with, `querySlowService1` wi
 </p>
 
 
-##Your application logic.
+## Your application logic.
 
 Imagine this being a call to a 3rd party service, which is slow, so you want to use Futures:
 

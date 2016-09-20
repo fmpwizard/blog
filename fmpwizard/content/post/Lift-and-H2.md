@@ -21,7 +21,7 @@ Before I joined Elemica, they were using SQuirrelSQL, which I thought was horrib
 
 On my personal projects, I was using a bash script that started up the web server that comes with H2. So I was about to add that script to our project when Tim Nelson showed me how you can add a few lines to Boot and the web.xml file in webapp to achieve the same.
 
-##Code
+## Code
 
 
 All you have to do is add these lines to web.xml:

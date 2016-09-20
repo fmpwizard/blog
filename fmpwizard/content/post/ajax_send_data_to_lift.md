@@ -19,7 +19,7 @@ The one that took me a while to understand was `T => JsCmd` . What was hard to u
 
 I knew it worked because I would copy/paste code samples taken from the mailing list and they worked just as advertised.
 
-##Scala bits to clear your mind.
+## Scala bits to clear your mind.
 
 If you are new to Scala, the T there represents **any** type, it could be an `Int`, `String`, `(String, String)`, etc. Let's take, as an example, the type signature of `SHtml.ajaxRadio`
 
@@ -29,7 +29,7 @@ Those are a lot of `T` types, just for now, let's assume you are working with **
 
 `def ajaxRadio(opts: Seq[String], deflt: Box[String], ajaxFunc: String => JsCmd, attrs: ElemAttr*): ChoiceHolder[String] = ...`
 
-##The moment of the realization.
+## The moment of the realization.
 
 When the time comes to use ajaxRadio, you could define `ajaxFunc` as
 

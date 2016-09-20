@@ -29,11 +29,11 @@ Menu.i("myPage") /  "filenamehere"
 
 And today I run into at least one use case, which makes a lot of sense and I'm very happy is there.
 
-##The problem.
+## The problem.
 
 I have a few template files organized under `webapp/mymodule1/` , but I don't want my users to see `mymodule1` as part of the URL.
 
-##The solution.
+## The solution.
 
 Now I have:
 
@@ -45,7 +45,7 @@ This allows me to give my users a url like `http://host/myprofile` , but interna
 
 That's all for today, simple, small, but I think it is very useful and makes the user experience much nicer, without sacrificing development organization.
 
-##Next?
+## Next?
 
 I'll share a tip Tim Nelson gave me last week, also related to Sitemap.
 

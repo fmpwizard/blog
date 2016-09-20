@@ -18,7 +18,7 @@ One of my favorite features in Lift is **Comet Actors**, I love how easy they ar
 I went ahead and recorded a presentation which focuses just on comet actors. They are split into 3 videos and I hope you find them useful.
 
 
-##All 3 videos in a playlist:
+## All 3 videos in a playlist:
 
 [Lift Comet Actors presentation](http://www.youtube.com/watch?v=KE__hE6mwls&list=PLRUorDvc-3rNXJkyXom34Og4TVKPu-SYC)
 

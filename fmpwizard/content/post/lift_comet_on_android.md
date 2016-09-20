@@ -23,7 +23,7 @@ This question has been asked on the mailing list several times, and the answer a
 
 I never liked that answer, even though I didn't have any better alternative .... until a few months ago when it was my turn to write an Android app for one of my clients.
 
-##The problem
+## The problem
 
 One of the feature on this Lift site I have been working on, is to be able to chat with colleagues on specific items, think of it as real time comments on a blog post. Once we had that in place we added notifications, where users could type the normal `@your name` and you get a notification, and you also get notifications from the system when other actions take place (files uploaded, long running tasks finish, etc).
 
@@ -33,7 +33,7 @@ So I decided we needed an Android app to solve this issue.
 
 I really didn't want to have to maintain a long poll http connection at all times, that felt really wasteful and I imagined would run down the battery pretty fast.
 
-##Enter GCM
+## Enter GCM
 
 Google offers [Google Cloud Messaging](https://developers.google.com/cloud-messaging/), which in short means that I don't have to keep an http connection alive, the OS will do that for me, all I have to do is, from the Lfit server, send an HTTP request to the google servers, including a key that is specific to the device I want to send the notification to, and then the Google servers send that message to the android device.
 
@@ -56,11 +56,11 @@ In our case, the app I wrote mostly uses webview, so we access our regular site 
 
 For our use case, we only need communication one way, from the Lift server to the mobile devices, but GCM allows you to also send messages from the device to the server.
 
-##Code.
+## Code.
 
 While I can't post the code for the Android app I wrote, the example apps on the Google site are a very good starting point, and on the Lift side, just hook the http call where you normally send the Comet message. We are using [scalaj-http](https://github.com/scalaj/scalaj-http) to make the http requests.
 
-##Finale note.
+## Finale note.
 
 Adopting Google Cloud Messaging reduced the amount of code I would have to write, saves battery life for our users and provides a very integrated way to communicate with native apps, in real time.
 

@@ -22,7 +22,7 @@ While on one side Go-Cortex let's me control an Arduino using [voice recognition
 
 While they are not terrible things, over time it gets old and I really wanted to experiment more with Go.
 
-##Talking to Flowdock.
+## Talking to Flowdock.
 
 I'm using the the flowdock [streaming api](https://www.flowdock.com/api/streaming) to listen for messages posted to our flows. I wrote about [consuming a streaming api using go before](http://blog.fmpwizard.com/blog/http-streaming-using-go) .
 
@@ -80,7 +80,7 @@ type CortexConfig struct {
 }
 ```
 
-##In action.
+## In action.
 
 Here is what it looks like:
 
@@ -91,7 +91,7 @@ Here is what it looks like:
 
 I just pushed a tag to keep track of these changes, this is at [v0.4.0 ](https://github.com/fmpwizard/go-cortex/tree/v0.4.0).
 
-##Final notes.
+## Final notes.
 
 Wit recently added an [Explore](https://wit.ai/blog/2014/04/17/explore-explore) feature which in the near future will allow you to do something analogous to forking my instance. This means you can take the training data I have used for my cortex instance and train your own instance.
 

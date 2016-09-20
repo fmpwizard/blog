@@ -13,7 +13,7 @@ aliases = [
 
 # Go Cortex - using Wit.ai on a raspberry pi connected to an arduino and written in go
 
-##What is it?
+## What is it?
 
 ###Update
 
@@ -24,7 +24,7 @@ I wrote a follow up [post](http://blog.fmpwizard.com/blog/using-voice-recognitio
 
 ![Cortex](/images/arduino-1.jpg)
 
-##Internals
+## Internals
 
 Cortex understands what you asked by using [Wit.ai](http://wit.ai) to process the incoming sentence. Wit returns  an [intent](https://wit.ai/docs/intro#toc_5) with some [entities](https://wit.ai/docs/intro#toc_9), and then Cortex executes a service based on that information.
 
@@ -85,7 +85,7 @@ And in the end, the LED number 6 turns on.
 
 ![Cortex](/images/arduino-3.jpg)
 
-##Why Wit?
+## Why Wit?
 
 Some of you may think *"I could do that with regular expressions"* or *"I would use xyz"*. The beauty of using Wit comes when you don't have to think ahead of time all the different ways in which a user may want to express their intention. You can say something like *On Monday the light 5 should really be off* and Wit knows that the entity `on_off` should have the value `off` (I just tried it to make sure and it works). And I didn't have to do any programming for this case (note tha word on in there, but Wit did not get confused by it.).
 
@@ -93,7 +93,7 @@ Using Wit makes for a more natural way of interacting with devices. And it learn
 
 ![Cortex](/images/arduino-4.jpg)
 
-##Arduino
+## Arduino
 
 You can find the complete code for arduino on the [go-cortex repo](https://github.com/fmpwizard/go-cortex/blob/master/arduino/) ( you will need both files from that directory).
 
@@ -110,10 +110,10 @@ int led6 = 2;
 
 Just connect those pins to and LED (remember to use a resistor between the positive and the LED) and then connect them all to ground on your breadboard and you should be good to go.
 
-##Raspberry Pi
+## Raspberry Pi
 I'm running `Cortex` on a raspberry pi at home, you can access it at [http://fmpwizard.no-ip.org:8080/?q=turn+light+2+on](http://fmpwizard.no-ip.org:8080/?q=turn+light+2+on) , feel free to change the sentence to something else, remember that I only have lights from 1 to 6. If you would like to replicate this, take a look at the [README.md](https://github.com/fmpwizard/go-cortex/blob/master/README.md) file which has more details on the setup and leave a comment if you need some help.
 
-##Go
+## Go
 Using Go for this has been great. Having a solid standard library means that to make http requests to the Wit service I simply do (everyone uses the same api, you don't have to pick one vs another):
 
 

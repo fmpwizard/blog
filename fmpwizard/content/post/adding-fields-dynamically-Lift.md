@@ -27,7 +27,7 @@ Then I remembered this one [email](https://groups.google.com/d/topic/liftweb/mrR
 
 So I was back at the drawing board. I had one solution that was really ugly, then I had another solution, but it was too fragile for my use case, and the thing with me is that I love being proud of the code I write, not just the open source code, but also the closed source, but I was running out of time, so I started talking with [Tim Nelson](https://twitter.com/eltimn/) and the solution came up, just use plain html fields, and use `jsonCall` to send the data to the Lift server.
 
-##The idea.
+## The idea.
 
 The idea is pretty simple, you have your default number of fields on the screen, you do not have any Lift closure associated with them, they are plain old html forms on an html page. I added two buttons, one to __add__ and one to __remove__ fields.
 
@@ -39,7 +39,7 @@ You press the blue button, and the ``div`` that holds the two boxes is duplicate
 
 The next part of the puzzle is the `Finish` button. I needed a way to call a Lift method from JavaScript. You normally do this by using `ajaxCall/jsonCall` but here I added a small twist, I'm using a __named ajax function__, I had seen this idea mentioned before and recently __Brent Sowers__  [wrote](https://groups.google.com/d/topic/liftweb/EqzKHbL6A5E/discussion) how he does it.
 
-##Some code.
+## Some code.
 
 I have this snippet method
 
@@ -135,10 +135,10 @@ And finally, this is the markup:
     </div>
 
 
-##Sample application.
+## Sample application.
 This time i didn't publish a running application, but I did put the source code on github, so you can clone this [repo](https://github.com/fmpwizard/lift_starter_2.4/tree/lift_dynamic_fields) and you can try it out at home/work.
 
-##Final notes
+## Final notes
 I'm pretty happy with how all the pieces work together, it looks pretty clean and I don't think I have sacrificed any of Lift's core ideas by doing this. I am still wondering if this technique makes an application vulnerable to any hacking attack and if I find a way I'll update this post.
 
 Turns out there was a problem with the first implementation I wrote (about 1 hour ago), you could just call the JavaScript function that sends the data to the Lift server, and pass any parameters to it. So that would allow anyone to just submit any arbitrary value to our server, something we don;t want.

@@ -14,7 +14,7 @@ aliases = [
 
 # Arduino and Lift - controlling a servo motor.
 
-##Introduction.
+## Introduction.
 
 I have been meaning to control devices from a computer for a long time. But for one reason or another, I never got to it, that is, until now.
 
@@ -26,7 +26,7 @@ I found this [blog post][2] that uses java to communicate with an Arduino board,
 
 ![Move motor with Lift][3]
 
-##Getting the parts.
+## Getting the parts.
 
 I haven't done anything with electric components since I left Argentina in 2001, so I went ahead I got all I needed from Amazon. Total price was $60, not bad.
 
@@ -34,18 +34,18 @@ I haven't done anything with electric components since I left Argentina in 2001,
 - [Arduino Uno Rev 3 Starter Kit][5]
 - [microtivity 5mm Assorted Clear LED w/ Resistors][6]
 
-##Adding some Lift to the project.
+## Adding some Lift to the project.
 
 If I was going to control an Arduino using a computer, I had to use Lift. So I went ahead and wrote a simple Lift application that has one button and some text indicating what is going on.
 
-##Goals for this project.
+## Goals for this project.
 
 - I wanted to control a servo motor using my cellphone.
 - I didn't want to have to write an Android application.
 - I wanted to know if my "door" was open or closed.
 - I wanted the UI to be simple but smart at the same time.
 
-##Did I get there?
+## Did I get there?
 Yes! In a nutshell, the architecture is:
 
 1. From my cellphone (or any device with a browser), I access a Lift application running on my laptop.
@@ -53,7 +53,7 @@ Yes! In a nutshell, the architecture is:
 3. I'm currently using a breadboard to connect two LED’s, one green and one red, to indicate if the door is open or closed.
 3. And I also connect a servo motor to the Arduino board.
 
-##The Lift application.
+## The Lift application.
 
 ![Architecture][7]
 
@@ -67,7 +67,7 @@ If you click the button again, it will turn the red LED on, rotate the servo mot
 
 I didn't want to have two buttons on the browser page. So this is one of the reason why I’m using Comet. Another advantage of using comet in this manner is that any browser, not just mine, gets the latest door status. This means that if I have two computers, and each of them have a browser pointing to my Lift Application, both would know any "status" update.
 
-##Final thoughts.
+## Final thoughts.
 
 While this is a very simple and somewhat limited example, I think it is a great starting point, and it opens up a lot of possibilities.
 
@@ -75,17 +75,17 @@ In the future I want to explore the idea of controling lights and the ac at home
 
 I also hope that this post shows that there is a lot of technology available to every day people, and you can do pretty cool stuff without having to be a rocket scientist or having to spend thousands of dollars.
 
-##Where is the code?
+## Where is the code?
 
 The code is hosted on github, It is under the [arduino branch][8]. I included the Lift application and the [Arduino code][9].
 
 Feel free to ask questions on the comment section.
 
-##Notes.
+## Notes.
 
 I had some issues with the java library to communicate with the USB port, the solution was to run the jvm in 32 bit mode and copy the RXTXcomm.jar anf librxtxSerial.jnilib files from the Arduino IDE to /Library/Java/Extensions/ folder (I’m on a mac).
 
-##Video.
+## Video.
 
 See the Lift application in action:
 

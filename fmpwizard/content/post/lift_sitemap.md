@@ -33,7 +33,7 @@ To most people this looks just like any other site map they have implemented in 
 
 Now, if for any reason, you then need to change the path from http://hostname/user/list to some over path, you will have to do some search/replace from your preferred IDE/text editor/etc. And this just does;t feel right.
 
-##Solution?
+## Solution?
 
 Declare each sitemap entry as a `val`. So, taking our example, your sitemap would look like:
 

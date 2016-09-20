@@ -17,7 +17,7 @@ For the past week I have been building a little Lift application to run on a [Ra
 
 But, as this little computer is pretty slow to boot (well, a few seconds), I thought that I should add some kind of status page that I can keep hitting from my laptop, and once I get an OK response, well, Lift is up and I can start controlling the pins.
 
-##Lift beauty
+## Lift beauty
 
 I wanted this new page to be:
 

@@ -15,12 +15,12 @@ Lift has very powerful comet support, and 2.5 is bringing even better support. B
 
 A few months ago I had an idea of how to do this, and was planning on talking about it at OSCON, but my talk wasn't accepted. Then I decided I could just blog about it and here we are.
 
-##The problem.
+## The problem.
 On a typical chat application, you store your messages in an object, and singleton. And as messages come in, you send them to all the clients.
 
 Now imagine you have one server in the US, and another server in Europe. And you have people connect to the US server and people connect to the European server. They would not see each others messages, because we are storing the messages in the individual servers.
 
-##The solution.
+## The solution.
 ![Distributed Chat](https://dl.dropbox.com/s/eplqjhmwkxdi4a4/distributed-comet-chat.png)
 While this is not the best solution, it works and may be useful to others to base their solutions on. What I did was to add one more element to the mix, a CouchDB server, to act as a global store for messages.
 
@@ -38,14 +38,14 @@ You could, of course, just write a Lift REST application that does the same thin
 ### Cons of this solution.
 We have a central point of failure, if CouchDB is down, nobody gets any messages. In which case we could have a cluster of CouchDB servers and some kind of HA in front of it. And we could also change the Chat application logic so that instead of only retrieving messages from Couch, we could also display the messages generated on the same JVM, and filter them out when we fetch for new changes.
 
-##Does it really work?
+## Does it really work?
 Yes! I have two instances running on Cloudbees, you can access one server [here](http://lift-comet.fmpwizard.cloudbees.net/) and the other server [here](http://lift-comet-2.fmpwizard.cloudbees.net/)
 
 Open them on different browser tabs, enter a name on the Nickname field and type any message, after you press enter or click on `Chat!`, the message will appear on both servers.  *
 
 
 
-##Want to try something else?
+## Want to try something else?
 You could even add your own machine to the cluster, just
 
     //clone the sample application and create a folder called lift_clustered_comet
@@ -60,12 +60,12 @@ You could even add your own machine to the cluster, just
 
 Then go to `http://127.0.0.1:8080` and enter a name and a message, after you click Chat, the message will log to the CouchDB server and it should also appear on [server 1](http://lift-comet.fmpwizard.cloudbees.net/) and [server 2](http://lift-comet-2.fmpwizard.cloudbees.net/)    
 
-##Code
+## Code
 Al usual, the code is hosted on [github](https://github.com/fmpwizard/lift_starter_2.4/tree/lift_clustered_comet/src/main/scala/com/fmpwizard) (note that I'm using the same repository, but different branches for my new blog posts).
 
 To put all this together, I'm using Twitter Finagle to retrieve the new messages from CouchDB, as well as sending the new data to the CouchDB server. And then it is all Lift, using LiftActors, CometActors and the Schedule feature in Lift.
 
-##Notes
+## Notes
 I hope you enjoy it and feel free to leave comments here or on the Lift mailing list.
 
 Thanks

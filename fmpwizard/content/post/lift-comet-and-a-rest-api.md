@@ -21,13 +21,13 @@ I chose to write it using Scala and [Lift](http://www.liftweb.nt) and it has bee
 
 One of the many goals I have for this dashboard is to make the UI as responsive as possible. I also wanted to avoid things like full page reloads just to get new info.
 
-##Enter the awesome comet support that comes with lift.
+## Enter the awesome comet support that comes with lift.
 
 ![Dashboard](/images/21763908-MEM_QA_Dashboard.png)
 
 While you are looking at the results on a page, there is no need for hitting refresh, there is a comet actor that renders a table displaying test results. This Comet Actor will only update the cell that has new information coming from a REST API included on this dashboard.
 
-##The details.
+## The details.
 
 The first implementation was using a comet actor per page, you acomplish this by using a random name on each comet actor. I needed to use named actors to be able to have two or more browser tabs open at the same time, displaying information about different product versions we had tested.
 
@@ -40,7 +40,7 @@ It took me some time to really understand the whole idea, I felt I was almost th
 
 I then went ahead and bought [Actors in Scala](http://www.artima.com/shop/actors_in_scala) hoping that it would help, and even though the book is not finished, it helped a lot. It had an example that was just the missing piece, well, I had to adjust it, but it helped me understand actors a lot better.
 
-##The final implementation works like this:
+## The final implementation works like this:
 
 ![Architecture](/images/21750424-qa-dashboard.png)
 
@@ -86,7 +86,7 @@ object MyListeners extends Logger{
 
 Once the Comet Actor gets his dispatcher, it sends a registerCometActor message, and the dispatcher adds this comet actor to a List() of actors.
 
-##Now the REST API side.
+## Now the REST API side.
 
 ![REST Architecture](/images/21763731-dash.png)
 
@@ -135,13 +135,13 @@ Finally, each comet actor that gets the CellToUpdate message, use the partialUpd
   }
 ```
 
-##Conclusion.
+## Conclusion.
 
 At this point I’m pretty happy with how it all works together. I’m sure there are things to improve, but I feel this is good enough for now. There is one detail that I may try to fix, which is that if there is no dispatcher for version Y, and the REST API calls MyListeners.listenerFor(“Y”), it will create a new dispatcher, which I do not want, I only want to create a dispatcher if there is a comet actor.
 
 This has been a great exercise for me, I learned a lot about Lift comet support, and actors in general. I hope this helps others using Lift and if you have any comments, feel free to leave them here.
 
-##Example Code?
+## Example Code?
 
 I have put together a small application to show how this all works together, you can find it here:
 

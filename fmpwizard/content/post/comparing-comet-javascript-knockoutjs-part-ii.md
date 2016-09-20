@@ -19,7 +19,7 @@ aliases = [
 
 On my [previous post](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-knockoutjs), I gave an introduction of my javascript adventures (kind of). This post is about re-writing the sample chat application that comes with Simply Lift using three different techniques.
 
-##Technique I
+## Technique I
 
 The first technique is to inline JavaScript in your scala code. I'm keeping the chap application very simple and with some bugs, because the point here is to give you a taste of the different ways you can use JavaScript with Lift
 
@@ -55,7 +55,7 @@ The important part to notice here is `$('#messages').append('<li>Hello world</li
 
 This works, but as you can see, we have a lot of javaScript in our comet code. And if the logic to add new rows gets a bit more complex, it would be harder to read, debug.
 
-##Technique II
+## Technique II
 
 We read some good books on JavaScript, get a few good tips from coworkers and now we move on to using events.
 
@@ -102,7 +102,7 @@ This allows your team to split the work a bit more, you can have someone who is 
 
 This is a lot better than option 1, but if each row has a more complex html structure, things could get ugly.
 
-##Technique III
+## Technique III
 
 Enter knockout.js (or angular.js or any other framework that does the same/similar things).
 
@@ -196,7 +196,7 @@ Notice this line on the template `<ul id="messages" data-bind="foreach: messages
 
 By now I hope you can see that ko lets you have as complex of an UI as you need to, in a very similar way that Lift handles templates and snippets using css selector transform.
 
-##Code sample.
+## Code sample.
 
 You will find a complete chat application on [github](https://github.com/fmpwizard/lift_starter_2.4/tree/compare-chat-apps-comet-lift) (note the branch name if you pull it locally).
 
@@ -205,7 +205,7 @@ after you start the app, you will see the three implementations, each on its own
 
 ![3 flavors of chat apps](/images/chat-app-3-flavors.jpg)
 
-##Final note.
+## Final note.
 
 I hope you find this post helpful and see the power in passing some of the rendering responsibilities to the client.
 

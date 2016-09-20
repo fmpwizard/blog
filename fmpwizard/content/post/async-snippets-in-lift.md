@@ -44,7 +44,7 @@ class Sample extends Loggable {
 
 ```
 
-##Some details.
+## Some details.
 
 This post is about supporting `LAFuture[NodeSeq]`, which basically says that the end user is responsible for fulfilling the Future with the data they want to see on the browser, and express it as a `NodeSeq`. This could be as simple as saying `f1.satisfy(Text(Hello!))` or you could use more complex structures (like a complete html list)
 

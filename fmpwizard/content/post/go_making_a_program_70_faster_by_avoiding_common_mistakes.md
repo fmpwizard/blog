@@ -16,7 +16,7 @@ At [work](https://www.ascendantcompliancemanager.com/) we wrote a tool that take
 
 **Blotterizer** (because it calculates data for Trade Blotters :) ), has gone through several major improvements. Some of them were related to performance, like going from **8 hours** to run the complete process down to about **20 minutes**. Others were operational, for example, I used to have to manually run the tool locally, then upload a gzip file to the server and then load that data to the database, now all it takes is one click on the main App and then sit back and wait for a notification telling you the data is ready.
 
-##The problem.
+## The problem.
 Today I'm writing about a mistake I made a while ago, which only showed how bad it was for some of our largest customers. Customer `X` provided us with several years worth of data, and `Blotterizer` took about 131 minutes to process all that data, most customer's data are is ready in less than 10 minutes, so this was way too long.
 
 ###The wrong way to fix it
@@ -157,7 +157,7 @@ Here I stopped, cleaned up the code and sent a pull request to have the changes 
 
 In the next couple of days I'll be looking at other parts of the tool to see what other mistakes are waiting to be corrected :)
 
-##Note to self.
+## Note to self.
 
  - Go benchmarks are your friend
  - Try not to query your database if possible.

@@ -17,7 +17,7 @@ While at the hackday at [Gophercon](http://www.gophercon.com/) I thought it woul
 
 Over the past 24 hours I made many changes, but one that I specially liked was that I could pass a function as a parameter to another function. This is possible in Go because functions are first class (values? | elements?) And this made the code a lot cleaner.
 
-##Before.
+## Before.
 
 Initially I only had this one function to fetch the list of flows:
 
@@ -54,7 +54,7 @@ func parseAvailableFlows(body io.ReadCloser) {
 
 But then I wanted to also fetch the list of current users, so I ended up with pretty much the same two functions duplicated, which wasn't that great.
 
-##Refactor step 1:
+## Refactor step 1:
 
 First I moved the logic to fetch data from a url to a generic function:
 
@@ -78,7 +78,7 @@ func performGet(path string) {
 
 This was nice, but the question is, how do I run any specific function depending on what I'm parsing?
 
-##Enter closures.
+## Enter closures.
 
 Turned out it was pretty easy.
 I defined a new type `type parseCallback func([]byte)` this is the type signature of the parse functions I have
@@ -124,7 +124,7 @@ func performGet(path string, f parseCallback) { // <== note how we expect a valu
 }
 ```
 
-##Final API
+## Final API
 
 So now I simply have:
 
@@ -144,11 +144,11 @@ func fetchUsers() {
 
 which I think looks pretty nice.
 
-##Code.
+## Code.
 
 If you would like to see this code in context, you can check the Cortex code at this [commit](https://github.com/fmpwizard/go-cortex/tree/c28a3f3b8cf8fa4f5ef180d550307d501ae9872d)
 
-##Updated based on @elimisteve 's comments
+## Updated based on @elimisteve 's comments
 
 >Thank you for reading and don't hesitate to leave a comment/question.
 

@@ -28,15 +28,15 @@ This brings me to something else I have been thinking for a while. A lot of peop
 
 Let's take a simple example of a list of messages, hey, let's even visit an example that you can mess with right now, go to [http://fmpwizard.com:7070](http://fmpwizard.com:7070/index). This is an application written in Go, using the [go-restful](https://github.com/emicklei/go-restful) framework and it uses some Flight code to fetch the last 10 messages from the server and to submit new messages.
 
-##The problem.
+## The problem.
 
 I'm sure you noticed that the main page loads pretty fast, from home it takes about **60ms**, but you don't see the messages right away, because the app has to download js code that will tell the application what to do (fetch some messages) and then it will make a new request to the server to get that data and render it. This whole thing takes about **1 second**. I don't know about you, but I think this is way too long to wait, as a user, to get my data.
 
-##One solution.
+## One solution.
 
 What do I propose is a better way, head over to this page:  [http://fmpwizard.com:7070/messages](http://fmpwizard.com:7070/messages), this is the same html, same Javascript code, but I render the last 10 messages on the server, and send it as part of the initial html, this means that you only wait about **76ms** to start reading the messages you are looking for. And while you read them, the page continues to load the css and Javascript code that will provide you with more functionality. This is a huge difference in latency, and I think most users would benefit from it.
 
-##But what about Ajax stuff?
+## But what about Ajax stuff?
 
 So, most people tend to have lots of client side code because they want to do ajaxy stuff, and I agree that this improves the user experience, but you can also achieve that with the method I propose here.
 

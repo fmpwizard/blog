@@ -29,7 +29,7 @@ Lift comes with a **Textile** parser, and David is working on a Markdown parser.
 
 In this post I'll show you how you can use the **Textile** parser to offer your users a rich text editor, without sacrificing security.
 
-##How does it work?
+## How does it work?
 
 ![Textile application](/images/Textile-1.jpg)
 
@@ -82,7 +82,7 @@ The last feature I added was to save the changes to a database, as you type alon
       entry.blogID.is
     }
 
-##The code.
+## The code.
 
 All the Scala code is well commented, and can be found [here](https://github.com/fmpwizard/lift_starter_2.4/blob/lift_textile/src/main/scala/com/fmpwizard/snippet/Sample.scala), I did make some small changes to the default Markitup files.
 
@@ -136,11 +136,11 @@ and
 
 
 
-##Final thoughts.
+## Final thoughts.
 
 All in all, this is a simple example of what you can do to integrate a textile editor on your application, there are many features we could add to it, and I hope you find this example useful.
 
-##Source code?
+## Source code?
 
 You can find the full source code on [Github](https://github.com/fmpwizard/lift_starter_2.4/tree/lift_textile)
 

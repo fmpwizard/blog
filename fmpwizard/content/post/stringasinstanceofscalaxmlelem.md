@@ -78,7 +78,7 @@ What do I do in cases like this? Google to the rescue, well, not so this time. I
 I was surely not the first person trying to convert a String to XML, but I just didn't know what else to try, I kept reading the scaladoc but I couldn't find anything there either. I even remembered reading about scala and xml on the book [Programming Scala](http://ofps.oreilly.com/titles/9780596155957/) but I somehow missed the solution to my problem.
 
 
-##The solution.
+## The solution.
 
     import scala.xml._
     XML.loadString(stringVal)

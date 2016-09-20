@@ -18,7 +18,7 @@ A couple of weeks ago I went ahead and bought the [Wolfson sound card](http://ww
 
 This turned out not to work so well. The card has two built in microphones, but I had to be really close to the board to get a good quality recording. And even after applying some noise removal, the service I was using for voice recognition wasn't getting what I was saying (at least not all the time).
 
-##SMS to the rescue.
+## SMS to the rescue.
 
 Looking for alternatives, I went ahead and opened an account with [nexmo.com](https://www.nexmo.com/). They give you a US number you can send text messages to, and they go and send those to a URL callback you provide.
 
@@ -64,7 +64,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-##Demo
+## Demo
 
 Here is a short video where I use Google now to send text messages to Cortex and in return it turns lights on or off after Wit.ai processes each message. Note how the process is fairly fast, considering it goes from my cellphone to the Nexmo number. Nexmo uses my callback url running on the rasbperry pi, it then sends that text content to Wit and then we parse the json from Wit and tell the Arduino board what to do.
 
@@ -72,11 +72,11 @@ Here is a short video where I use Google now to send text messages to Cortex and
 <iframe width="560" height="315" src="//www.youtube.com/embed/dwVUE8kWNLQ?rel=0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-##Code
+## Code
 
 Cortex is hosted on [github](https://github.com/fmpwizard/go-cortex), as always, feel free to leave a comment or get in contact using any network you happen to find me in.
 
-##Final notes.
+## Final notes.
 
 I think that this is a good enough setup to start building more useful things on top of. The Google voice recognition on my phone is used to my voice and is pretty accurate by now. Nexmo's API to receive messages is very simple to use and it is also very fast. I have trained my Wit instance pretty well and I really like the json response they provide and using Go for this project has been a great choice. It is a lightweight language that runs just fine on a multicore server as well as on a tiny ARM computer, the standard library gives me all I need, http client and server, plus communication using USB port.
 
