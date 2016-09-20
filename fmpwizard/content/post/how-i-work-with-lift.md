@@ -59,7 +59,7 @@ Some people like using **jRebel**, to avoid having to restart the server, you ca
 
 I remember my first year or so with Lift, I would restart jetty so many times to get simple snippets to work, was frustrating, but over time, you get to a point where you don't need that many iterations to get the desired result, so by now I don't see the need for jRebel in my setup.
 
-###Browser
+### Browser
 
 While I use Google Chrome for all my web browsing, I use Firefox (with the Firebug plugin) for testing my Lift applications.
 
@@ -67,7 +67,7 @@ Why? Because I find it quicker to press `command + tab` (mac) to go from the bro
 
 The second reason is that I find Firebug a lot easier to use than the Chrome developer tools.
 
-###Window size
+### Window size
 
 This only applies to those who use a laptop to work, and no external monitor. The only application that is fully maximized is the terminal, and the tab that is active most of the time is the one running **sbt**, then the browsers/IntelliJ/etc are almost maximized, but the lower area is pulled up just enough so that I can see if sbt gave me a compiler error, or a test failure. This saves me the need to switch screens as I try different things on my snippet code.
 

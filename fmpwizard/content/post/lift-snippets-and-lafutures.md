@@ -13,7 +13,7 @@ aliases = [
 
 # Using LAFutures with snippets in Lift 2.x
 
-###Update
+### Update
 
 There is a better alternative now on [this post](https://fmpwizard.telegr.am/blog/async-snippets-in-lift)
 

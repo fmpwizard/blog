@@ -58,7 +58,7 @@ var messagesChan = make(chan *MessageStore)
 ```
 
 
-###Using the channel
+### Using the channel
 
 To do something with the channel, you need to define a function that will listen for new messages.
 

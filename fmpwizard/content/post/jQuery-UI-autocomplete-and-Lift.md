@@ -27,13 +27,13 @@ I had a few ideas of what I wanted to get out of this rewrite:
 ## Some code.
 _Well, a lot of code._
 
-####Snippet
+#### Snippet
 
     def nameAutoComplete = {
       "#search [onkeyup]" #> SHtml.ajaxCall(JE.JsRaw("""$("#search").val()"""), search _)
     }
 
-####HTML
+#### HTML
 
     <div data-lift="MySnippet.nameAutoComplete">
       <label for="search" class="span-4"><lift:Loc>general.search</lift:Loc>: </label>
@@ -42,7 +42,7 @@ _Well, a lot of code._
 
 The basic idea is that we bind the onkeyup event to an ajaxCall that sends the current text entered in the search box to a method on my snippet class. This method takes the string, does a search on our Neo4J graph, and returns the result as a JavaScript array.
 
-####Generating the source data
+#### Generating the source data
 
     private def search(term: String): JsCmd = {
       //Get a json payload from Neo4j

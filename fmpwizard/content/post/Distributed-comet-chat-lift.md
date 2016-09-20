@@ -28,7 +28,7 @@ The idea is simple, client A connects to server US, when client A sends a messag
 
 Both, server US and server Europe query the CouchDB instance once a second to see if new messages arrived, if any are found, the messages are downloaded to the server and broadcasted to all the connected clients.
 
-###Pros of this solution.
+### Pros of this solution.
 One of the things I like about this solution is that I can add/remove any number of servers, and it does not need any reconfiguration on the other servers and/or the CouchDB central server. This was a design goal I had, I didn't want to have to keep a list of current servers, so if I have 10 servers serving messages, all 10 servers just call the one CouchDB server for new messages.
 
 I also went with CouchDB as the central server because it already comes with a REST endpoint to receive messages, and it has this one feed called "_changes", you basically call this _changes url and you get a notification of the changes that happened on a specific database.

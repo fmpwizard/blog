@@ -13,9 +13,9 @@ aliases = [
 
 
 # Different ways to use Comet Actors in Lift (Part II).
-####With some bits of knockout.js
+#### With some bits of knockout.js
 
-####Update: I have updated the source code on the github branch, and there is part III, using [AngularJS](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-angularjs-part-iii).
+#### Update: I have updated the source code on the github branch, and there is part III, using [AngularJS](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-angularjs-part-iii).
 
 On my [previous post](https://fmpwizard.telegr.am/blog/comparing-comet-javascript-knockoutjs), I gave an introduction of my javascript adventures (kind of). This post is about re-writing the sample chat application that comes with Simply Lift using three different techniques.
 
@@ -187,7 +187,7 @@ To connect this javascript to the html template, you need to add a few tags to y
       </div>
 ```
 
-###Knockout side notes.
+### Knockout side notes.
 
 Note that on the js file we have `ko.applyBindings({ messages: messages }, document.getElementById('chat-messages')[0]);`
 

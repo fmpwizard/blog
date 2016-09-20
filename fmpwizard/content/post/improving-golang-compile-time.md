@@ -15,7 +15,7 @@ aliases = [
 
 The Go compiler is really fast, and I got so used to it that when compiling [OwlCrawler](https://github.com/fmpwizard/owlcrawler) was taking about 8 seconds I started to worry (granted I generate 3 executable files).
 
-###Tracking down the issue.
+### Tracking down the issue.
 
 Some google-fu pointed me to adding the `-x` parameter to `go build` to see more details on what was going on.
 

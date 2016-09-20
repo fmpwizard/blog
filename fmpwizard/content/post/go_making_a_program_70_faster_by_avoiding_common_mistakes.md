@@ -19,7 +19,7 @@ At [work](https://www.ascendantcompliancemanager.com/) we wrote a tool that take
 ## The problem.
 Today I'm writing about a mistake I made a while ago, which only showed how bad it was for some of our largest customers. Customer `X` provided us with several years worth of data, and `Blotterizer` took about 131 minutes to process all that data, most customer's data are is ready in less than 10 minutes, so this was way too long.
 
-###The wrong way to fix it
+### The wrong way to fix it
 First, I did what every dev out there knows not to do (including myself), I just started making changes to the code thinking I knew better. I knew we were getting a huge amount of docs from MongoDB, so the code went from:
 
 ```
@@ -120,7 +120,7 @@ ok  	github.com/ascendantcompliance/blotterizer	1.967s
 
 Down to `774 allocations` and timing was about half!
 
-###There was more!
+### There was more!
 I was still looking to make this even better, and that's when I saw
 
 ```

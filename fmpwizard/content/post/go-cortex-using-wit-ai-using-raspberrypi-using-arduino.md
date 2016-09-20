@@ -15,7 +15,7 @@ aliases = [
 
 ## What is it?
 
-###Update
+### Update
 
 I wrote a follow up [post](http://blog.fmpwizard.com/blog/using-voice-recognition-and-an-ultrasonic-sensor) where I added voice recording capabilities.
 

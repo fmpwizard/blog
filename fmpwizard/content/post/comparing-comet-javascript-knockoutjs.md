@@ -12,7 +12,7 @@ aliases = [
 [tags: {lift, Scala, comet actors, comet, actors, knockoutjs, javascript}]: /
 
 # Different ways to use Comet Actors in Lift (Part I).
-####With some bits of knockout.js
+#### With some bits of knockout.js
 
 Lift has many great fundamental features, focusing on security at its core is one of them, and another one is the ability to take a feature like its comet support and integrate it with JavaScript (and any JavaScript framework you wish to use).
 
