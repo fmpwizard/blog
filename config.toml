@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "FMPWizard's blog"
 theme = "hugo-lithium-theme"
 
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-368436-11"
+disqusShortname = "fmpwizard"
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
