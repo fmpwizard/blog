@@ -1,6 +1,7 @@
 +++
 date = "2011-02-18T21:49:57-07:00"
 title = "Scala + Lift + Comet + REST Support"
+slug = "lift-comet-and-a-rest-api"
 aliases = [
 	"/blog/lift-comet-and-a-rest-api"
 ]
