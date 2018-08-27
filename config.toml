@@ -1,7 +1,6 @@
 baseurl = "https://blog.fmpwizard.com/"
 languageCode = "en-us"
 title = "FMPWizard's blog"
-theme = "hugo-lithium-theme"
 
 googleAnalytics = "UA-368436-11"
 disqusShortname = "fmpwizard"
