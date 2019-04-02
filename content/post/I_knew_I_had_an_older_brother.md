@@ -2,16 +2,16 @@
 date = "2019-04-02T08:49:57-07:00"
 title = "I Knew I Had An Older Brother"
 tags = ["spirit", "love", "time", "illusion", "timelines"]
-draft = true
+draft = false
 +++
 
-There were many things I considered wrong when I was a child, one of them was the feeling that I had an older brother, but somehow my parents
-kept it a secret.
+There were many things I considered wrong when I was a child. One of them was knowing, in my Soul, that I had an older brother, but my
+family denied it and I didn't have any physical proof.
 
 I remember countless afternoons, sitting at the kitchen table, trying to figure out how to fit an older brother
 in our family tree. My mother was pretty young when she had my older sister, and I was convinced he was born before her.
 
-I specially missed him when I had a difficult day at school, when I could really use some good advice from soneone like me, but
+I specially missed him when I had a difficult day at school, when I could really use some good advice from someone like me, but
 with more experience.
 
 I eventually turned 18, moved to the US and at that point I didn't feel I needed him as much. Not that I knew what I was doing, but I had 
@@ -27,7 +27,7 @@ tells me I have dial tone.
 How is that related to my lost older brother? Let me tell you, today, while I was taking a shower, I remembered the feeling of 
 my lost older brother, and right there, I got the message that I, now, in 2019, am my older brother! And I got one of those chills I told you about.
 
-Now, let me explain, you may have heard that time is an illusion. It's not an easy to grasp idea, after all, we have watches that tell the time,
+Let me explain, you may have heard that "time is an illusion." It's not an easy to grasp idea, after all, we have watches that tell the time,
 we get old, die, we have books about history, etc. All that evidence makes it looks like time is pretty real! But, the way I'm looking at it now is that the idea that
 time is linear is not the whole truth.
 
