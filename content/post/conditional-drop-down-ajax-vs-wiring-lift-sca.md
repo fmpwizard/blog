@@ -2,7 +2,8 @@
 date = "2011-03-22T21:49:57-07:00"
 title = "Conditional Drop Down - Ajax vs Wiring - Lift - Scala"
 aliases = [
-	"/blog/conditional-drop-down-ajax-vs-wiring-lift-sca"
+	"/blog/conditional-drop-down-ajax-vs-wiring-lift-sca",
+	"/conditional-drop-down-ajax-vs-wiring-lift-sca"
 ]
 +++
 

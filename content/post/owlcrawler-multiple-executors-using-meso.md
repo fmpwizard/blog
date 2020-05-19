@@ -2,7 +2,8 @@
 date = "2015-03-01T21:49:57-07:00"
 title = "OwlCrawler - Multiple executors using Mesos"
 aliases = [
-	"/blog/owlcrawler-multiple-executors-using-meso"
+	"/blog/owlcrawler-multiple-executors-using-meso",
+	"/owlcrawler-multiple-executors-using-meso"
 ]
 +++
 

@@ -2,7 +2,8 @@
 date = "2013-12-09T21:49:57-07:00"
 title = "Getting Started with Twitter Flight - Book review"
 aliases = [
-	"/blog/getting-started-with-twitter-flight"
+	"/blog/getting-started-with-twitter-flight",
+	"/getting-started-with-twitter-flight"
 ]
 +++
 [title=]: /

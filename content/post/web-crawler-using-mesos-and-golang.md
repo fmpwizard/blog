@@ -2,7 +2,8 @@
 date = "2015-02-20T21:49:57-07:00"
 title = "Web crawler using Mesos and Go"
 aliases = [
-	"/blog/web-crawler-using-mesos-and-golang"
+	"/blog/web-crawler-using-mesos-and-golang",
+	"/web-crawler-using-mesos-and-golang"
 ]
 +++
 

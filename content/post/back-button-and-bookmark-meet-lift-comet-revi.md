@@ -2,7 +2,8 @@
 date = "2011-07-13T21:49:57-07:00"
 title = "Back button and bookmark meet Lift comet - Revisited"
 aliases = [
-	"/blog/back-button-and-bookmark-meet-lift-comet-revi"
+	"/blog/back-button-and-bookmark-meet-lift-comet-revi",
+	"/back-button-and-bookmark-meet-lift-comet-revi"
 ]
 +++
 

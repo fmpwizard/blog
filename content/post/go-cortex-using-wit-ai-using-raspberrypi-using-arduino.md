@@ -2,7 +2,8 @@
 date = "2014-03-06T21:49:57-07:00"
 title = "Go Cortex - using Wit.ai on a raspberry pi connected to an arduino and written in go"
 aliases = [
-	"/blog/go-cortex-using-wit-ai-using-raspberrypi-using-arduino"
+	"/blog/go-cortex-using-wit-ai-using-raspberrypi-using-arduino",
+	"/go-cortex-using-wit-ai-using-raspberrypi-using-arduino"
 ]
 +++
 [title=]: /

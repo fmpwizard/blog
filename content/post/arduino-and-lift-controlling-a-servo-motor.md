@@ -2,7 +2,8 @@
 date = "2012-06-04T21:49:57-07:00"
 title = "Arduino and Lift - controlling a servo motor"
 aliases = [
-	"/blog/arduino-and-lift-controlling-a-servo-motor"
+	"/blog/arduino-and-lift-controlling-a-servo-motor",
+	"/arduino-and-lift-controlling-a-servo-motor"
 ]
 +++
 

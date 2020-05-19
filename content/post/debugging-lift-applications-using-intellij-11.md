@@ -2,7 +2,8 @@
 date = "2012-01-28T21:49:57-07:00"
 title = "Debugging Lift applications using IntelliJ 11 and SBT"
 aliases = [
-	"/blog/debugging-lift-applications-using-intellij-11"
+	"/blog/debugging-lift-applications-using-intellij-11",
+	"/debugging-lift-applications-using-intellij-11"
 ]
 +++
 

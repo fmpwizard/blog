@@ -2,7 +2,8 @@
 date = "2012-06-20T21:49:57-07:00"
 title = "Lift autocomplete with jQueryUI"
 aliases = [
-	"/blog/jquery-ui-autocomplete-and-lift"
+	"/blog/jquery-ui-autocomplete-and-lift",
+	"/jquery-ui-autocomplete-and-lift"
 ]
 +++
 

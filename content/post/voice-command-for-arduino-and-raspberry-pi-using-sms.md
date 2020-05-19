@@ -2,7 +2,8 @@
 date = "2014-03-29T21:49:57-07:00"
 title = "Voice command for Arduino and Raspberry Pi using SMS"
 aliases = [
-	"/blog/voice-command-for-arduino-and-raspberry-pi-using-sms"
+	"/blog/voice-command-for-arduino-and-raspberry-pi-using-sms",
+	"/voice-command-for-arduino-and-raspberry-pi-using-sms"
 ]
 +++
 

@@ -2,14 +2,12 @@
 date = "2013-12-21T21:49:57-07:00"
 title = "Twitter Flight and Go"
 aliases = [
-	"/blog/twitter-flight-and-go"
+	"/blog/twitter-flight-and-go",
+	"/twitter-flight-and-go"
 ]
-+++
+tags = ["javascript", "flight", "flightjs", "twitter", "go", "golang"]
 
-[title=]: /
-[category: go]: /
-[date: 2013/12/21]: /
-[tags: {javascript, flight, flightjs, twitter, go, golang}]: /
++++
 
 
 # Twitter Flight and Go

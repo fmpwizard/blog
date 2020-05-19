@@ -2,7 +2,8 @@
 date = "2012-12-07T21:49:57-07:00"
 title = "What is T => JsCmd or how you send data from the browser to a Lift server"
 aliases = [
-	"/blog/ajax_send_data_to_lift"
+	"/blog/ajax_send_data_to_lift",
+	"/ajax_send_data_to_lift"
 ]
 +++
 

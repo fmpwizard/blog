@@ -2,7 +2,8 @@
 date = "2013-01-05T21:49:57-07:00"
 title = "Comet Actors in Lift 2.5"
 aliases = [
-	"/blog/comet-actors-presentation"
+	"/blog/comet-actors-presentation",
+	"/comet-actors-presentation"
 ]
 +++
 

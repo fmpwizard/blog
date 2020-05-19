@@ -2,7 +2,8 @@
 date = "2011-09-10T21:49:57-07:00"
 title = "Lift comet actor per tab library"
 aliases = [
-	"/blog/lift-comet-actor-per-tab-library"
+	"/blog/lift-comet-actor-per-tab-library",
+	"/lift-comet-actor-per-tab-library"
 ]
 +++
 

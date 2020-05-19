@@ -2,7 +2,8 @@
 date = "2014-01-05T21:49:57-07:00"
 title = "GoChat - Using Go Channels"
 aliases = [
-	"/blog/gochat-using-go-channels"
+	"/blog/gochat-using-go-channels",
+	"/gochat-using-go-channels"
 ]
 +++
 

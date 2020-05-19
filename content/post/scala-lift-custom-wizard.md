@@ -2,7 +2,8 @@
 date = "2012-01-27T21:49:57-07:00"
 title = "Scala / Lift - Custom Wizard"
 aliases = [
-	"/blog/scala-lift-custom-wizard"
+	"/blog/scala-lift-custom-wizard",
+	"/scala-lift-custom-wizard"
 ]
 +++
 

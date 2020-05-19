@@ -2,7 +2,8 @@
 date = "2013-12-21T21:49:57-07:00"
 title = "Things I like about Go"
 aliases = [
-	"/blog/things-i-like-about-go"
+	"/blog/things-i-like-about-go",
+	"/things-i-like-about-go"
 ]
 +++
 

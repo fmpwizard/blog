@@ -2,7 +2,8 @@
 date = "2014-04-26T21:49:57-07:00"
 title = "Getting fancy with closures in Go"
 aliases = [
-	"/blog/getting-fancy-with-closures-in-golang"
+	"/blog/getting-fancy-with-closures-in-golang",
+	"/getting-fancy-with-closures-in-golang"
 ]
 +++
 

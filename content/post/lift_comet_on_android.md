@@ -2,7 +2,8 @@
 date = "2015-07-19T21:49:57-07:00"
 title = "Lift Comet for native Android apps"
 aliases = [
-	"/blog/lift_comet_on_android"
+	"/blog/lift_comet_on_android",
+	"/lift_comet_on_android"
 ]
 +++
 [title=]: /

@@ -2,7 +2,8 @@
 date = "2012-07-22T21:49:57-07:00"
 title = "Dynamically adding fields to a Lift application"
 aliases = [
-	"/blog/adding-fields-dynamically-lift"
+	"/blog/adding-fields-dynamically-lift",
+	"/adding-fields-dynamically-lift"
 ]
 +++
 

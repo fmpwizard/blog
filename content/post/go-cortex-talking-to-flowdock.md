@@ -2,7 +2,8 @@
 date = "2014-04-23T21:49:57-07:00"
 title = "Go Cortex - talking to Flowdock"
 aliases = [
-	"/blog/go-cortex-talking-to-flowdock"
+	"/blog/go-cortex-talking-to-flowdock",
+	"/go-cortex-talking-to-flowdock"
 ]
 +++
 

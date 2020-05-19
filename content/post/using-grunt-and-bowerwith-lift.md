@@ -2,7 +2,8 @@
 date = "2013-12-23T21:49:57-07:00"
 title = "Using Grunt and Bower with Lift"
 aliases = [
-	"/blog/using-grunt-and-bowerwith-lift"
+	"/blog/using-grunt-and-bowerwith-lift",
+	"/using-grunt-and-bowerwith-lift"
 ]
 +++
 

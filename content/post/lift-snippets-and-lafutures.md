@@ -2,7 +2,8 @@
 date = "2013-03-05T21:49:57-07:00"
 title = "Using LAFutures with snippets in Lift 2.x"
 aliases = [
-	"/blog/lift-snippets-and-lafutures"
+	"/blog/lift-snippets-and-lafutures",
+	"/lift-snippets-and-lafutures"
 ]
 +++
 

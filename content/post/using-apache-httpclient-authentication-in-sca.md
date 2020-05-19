@@ -2,15 +2,11 @@
 date = "2010-04-26T21:49:57-07:00"
 title = "Using Apache httpclient Authentication in Scala"
 aliases = [
-	"/blog/using-apache-httpclient-authentication-in-sca"
+	"/blog/using-apache-httpclient-authentication-in-sca",
+	"/using-apache-httpclient-authentication-in-sca"
 ]
+tags = ["apachehttpclient", "crawler", "httpclient", "robots", "scala", "spider"]
 +++
-
-[title=Using Apache httpclient Authentication in Scala]: /
-[category: Lift]: /
-[date: 2010/04/26]: /
-[path: /using-apache-httpclient-authentication-in-sca]: /
-[tags: {apachehttpclient, crawler, httpclient, robots, scala, spider}]: /
 
 
 # Using Apache httpclient Authentication in Scala

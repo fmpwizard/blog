@@ -2,7 +2,8 @@
 date = "2012-05-30T21:49:57-07:00"
 title = "Why do we need Template(() => Templates()) ?"
 aliases = [
-	"/blog/why-do-we-need-template-templates"
+	"/blog/why-do-we-need-template-templates",
+	"/why-do-we-need-template-templates",
 ]
 +++
 

@@ -2,7 +2,8 @@
 date = "2013-03-01T21:49:57-07:00"
 title = "Different ways to use Comet Actors in Lift (Part I)"
 aliases = [
-	"/blog/comparing-comet-javascript-knockoutjs"
+	"/blog/comparing-comet-javascript-knockoutjs",
+	"/comparing-comet-javascript-knockoutjs"
 ]
 +++
 

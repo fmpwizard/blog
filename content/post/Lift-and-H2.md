@@ -2,7 +2,8 @@
 date = "2012-09-05T21:49:57-07:00"
 title = "H2 Web Consoler and Lift"
 aliases = [
-	"/blog/lift-and-h2"
+	"/blog/lift-and-h2",
+	"/lift-and-h2"
 ]
 +++
 

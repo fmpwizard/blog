@@ -2,7 +2,8 @@
 date = "2013-03-08T21:49:57-07:00"
 title = "Asynchronous snippets in Lift 2.5"
 aliases = [
-	"/blog/async-snippets-in-lift"
+	"/blog/async-snippets-in-lift",
+	"/async-snippets-in-lift"
 ]
 +++
 

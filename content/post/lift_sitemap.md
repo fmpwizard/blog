@@ -2,7 +2,8 @@
 date = "2012-11-11T21:49:57-07:00"
 title = "Lift Sitemaps - a better way"
 aliases = [
-	"/blog/lift_sitemap"
+	"/blog/lift_sitemap",
+	"/lift_sitemap"
 ]
 +++
 

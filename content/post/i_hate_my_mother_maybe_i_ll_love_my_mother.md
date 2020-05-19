@@ -74,7 +74,7 @@ I journaled, I talked about it with my wife, I even tried to connect with my mot
 
 ## The turning point.
 
-After exploring my feelings once again, after talking about it with my wife, after emailing my [mentor](https://www.faunaspeak.com/), it finally clicked!
+After exploring my feelings once again, after talking about it with my wife, after emailing my mentor, it finally clicked!
 I didn't go through many break ups during my life, but my heart was broken by one woman, my mother. Every time she decided to hit me, every time she called me "inútil" (useless),
 my heart suffered, my self esteem diminished.
 
@@ -103,7 +103,7 @@ I still don't talk to my earth mother, but I started having a better conversatio
 will continue to interact for many more lives.
 
 I can feel my heart slowly healing. There is a lot of work left to do, but I see the path clearly now.
-I'm grateful for the support I have, my [wife](https://dr.hayleybauman.com/), our kids, our cats and our [mentor](https://www.instagram.com/faunaspeak/).
+I'm grateful for the support I have, my [wife](https://dr.hayleybauman.com/), our kids and our cats.
 
 Until next time.
 

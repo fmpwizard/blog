@@ -2,7 +2,8 @@
 date = "2010-05-24T21:49:57-07:00"
 title = "String.asInstanceOf scala.xml.Elem"
 aliases = [
-	"/blog/stringasinstanceofscalaxmlelem"
+	"/blog/stringasinstanceofscalaxmlelem",
+	"/stringasinstanceofscalaxmlelem"
 ]
 +++
 

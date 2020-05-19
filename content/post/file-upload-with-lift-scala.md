@@ -2,7 +2,8 @@
 date = "2011-03-21T21:49:57-07:00"
 title = "File Upload with Lift - Scala"
 aliases = [
-	"/blog/file-upload-with-lift-scala"
+	"/blog/file-upload-with-lift-scala",
+	"/file-upload-with-lift-scala"
 ]
 +++
 [title=]: /

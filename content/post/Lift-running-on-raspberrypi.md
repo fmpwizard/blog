@@ -2,7 +2,8 @@
 date = "2013-02-26T21:49:57-07:00"
 title = "Lift running on Raspberry Pi"
 aliases = [
-	"/blog/lift-running-on-raspberrypi"
+	"/blog/lift-running-on-raspberrypi",
+	"/lift-running-on-raspberrypi"
 ]
 +++
 

@@ -2,7 +2,8 @@
 date = "2015-03-08T21:49:57-07:00"
 title = "Improving compile time in Go"
 aliases = [
-	"/blog/improving-golang-compile-time"
+	"/blog/improving-golang-compile-time",
+	"/improving-golang-compile-time"
 ]
 +++
 [title=]: /

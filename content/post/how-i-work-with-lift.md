@@ -2,7 +2,8 @@
 date = "2012-11-29T21:49:57-07:00"
 title = "How I work with Lift"
 aliases = [
-	"/blog/how-i-work-with-lift"
+	"/blog/how-i-work-with-lift",
+	"/how-i-work-with-lift"
 ]
 +++
 

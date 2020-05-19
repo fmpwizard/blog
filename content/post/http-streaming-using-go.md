@@ -2,7 +2,8 @@
 date = "2014-04-04T21:49:57-07:00"
 title = "HTTP Streaming Using Go"
 aliases = [
-	"/blog/http-streaming-using-go"
+	"/blog/http-streaming-using-go",
+	"/http-streaming-using-go"
 ]
 +++
 

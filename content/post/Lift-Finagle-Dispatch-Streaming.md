@@ -2,13 +2,10 @@
 date = "2012-07-01T21:49:57-07:00"
 title = "Using Twitter Finagle and the Streaming api"
 aliases = [
-	"/blog/lift-finagle-dispatch-streaming"
+	"/blog/lift-finagle-dispatch-streaming",
+	"/lift-finagle-dispatch-streaming"
 ]
 +++
-
-[title=]: /
-[category: Personal]: /
-[date: 2012/07/1]: /
 [tags: {lift, finagle, twitter, stream, comet}]: /
 
 # Using Twitter Finagle, the Streaming api and Lift

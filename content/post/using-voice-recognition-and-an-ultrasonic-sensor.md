@@ -2,7 +2,8 @@
 date = "2014-03-09T21:49:57-07:00"
 title = "Go Cortex - using voice recognition and an ultrasonic sensor"
 aliases = [
-	"/blog/using-voice-recognition-and-an-ultrasonic-sensor"
+	"/blog/using-voice-recognition-and-an-ultrasonic-sensor",
+	"/using-voice-recognition-and-an-ultrasonic-sensor"
 ]
 +++
 

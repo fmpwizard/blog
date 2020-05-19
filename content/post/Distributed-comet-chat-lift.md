@@ -2,7 +2,8 @@
 date = "2012-07-14T21:49:57-07:00"
 title = "A distributed Lift Comet Chat Application"
 aliases = [
-	"/blog/distributed-comet-chat-lift"
+	"/blog/distributed-comet-chat-lift",
+	"/distributed-comet-chat-lift"
 ]
 +++
 [title=]: /

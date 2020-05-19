@@ -2,7 +2,8 @@
 date = "2016-02-29T21:49:57-07:00"
 title = "Go - Making a program 70% faster, by avoiding common mistakes"
 aliases = [
-	"/blog/go_making_a_program_70_faster_by_avoiding_common_mistakes"
+	"/blog/go_making_a_program_70_faster_by_avoiding_common_mistakes",
+	"/go_making_a_program_70_faster_by_avoiding_common_mistakes"
 ]
 tags = ["go", "golang", "mongodb", "benchmark", "performance"]
 +++

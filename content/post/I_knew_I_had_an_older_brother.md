@@ -19,7 +19,7 @@ some friends who I could rely on and at that time I was still talking to my fath
 
 ### The Chills!
 
-Since I started taking mentoring sessions with [Fauna Speak](https://www.faunaspeak.com/book-a-session/mentorship), I noticed that when I'm 
+Since I started taking mentoring sessions, I noticed that when I'm 
 really connected to Spirit, I get a serious chill. I've been using this to tell a true message apart from my mind messing with me. This also happens
 when practice healing, it's like a feedback loop, I dial into the Spirit World, I connect with the Souls that are around us all the time, and the chill 
 tells me I have dial tone.

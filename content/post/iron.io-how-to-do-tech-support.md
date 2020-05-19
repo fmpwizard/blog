@@ -2,7 +2,8 @@
 date = "2015-03-08T21:49:57-07:00"
 title = "Iron.io - Tech support done right"
 aliases = [
-	"/blog/iron.io-how-to-do-tech-support"
+	"/blog/iron.io-how-to-do-tech-support",
+	"/iron.io-how-to-do-tech-support"
 ]
 +++
 

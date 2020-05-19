@@ -2,7 +2,8 @@
 date = "2013-01-12T21:49:57-07:00"
 title = "Status page in Lift"
 aliases = [
-	"/blog/adding-status-page-to-lift"
+	"/blog/adding-status-page-to-lift",
+	"/adding-status-page-to-lift"
 ]
 +++
 
