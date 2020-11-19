@@ -7,6 +7,9 @@ draft = false
 
 Today I thought it would be good to write down some information about me and my career:
 
+![You have to love cats](/images/wilson-1.jpg)
+
+
 ## Technical Side
 
 I enjoy being proactive, for example, a few weeks ago we had to run data for a large client. It was a process that normally runs for a single day worth of data, but this time we had about 4 years of data. And it took about 7 hours to run.

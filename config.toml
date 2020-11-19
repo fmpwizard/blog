@@ -2,7 +2,6 @@ baseurl = "https://blog.fmpwizard.com/"
 languageCode = "en-us"
 title = "FMPWizard's blog"
 
-googleAnalytics = "UA-368436-11"
 disqusShortname = "fmpwizard"
 
 [permalinks]
@@ -23,6 +22,6 @@ disqusShortname = "fmpwizard"
     description = "Thoughts on Go, Golang, Lift, Scala and other technologies"
 
     [params.logo]
-    url = "logo.png"
+    url = "diego.webp"
     width = 50
     height = 50
